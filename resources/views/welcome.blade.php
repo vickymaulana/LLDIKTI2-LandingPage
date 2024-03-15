@@ -11,6 +11,7 @@
     <div class="container">
         <h1>Welcome to LLDIKTI 2</h1>
         <p>PSI JAYA JAYA JAYA</p>
+        @include('carousel-news')
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
