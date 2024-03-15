@@ -5,8 +5,9 @@
                 <h5><i class="fas fa-envelope"></i> Contact Us</h5>
                 <p><i class="fas fa-map-marker-alt"></i> Jl. Srijaya No.883, Srijaya, Kec. Alang-Alang Lebar, Kota Palembang, Sumatera Selatan 30153</p>
                 <p><i class="fas fa-envelope"></i> Email: admin@lldikti2.id</p>
-                <p><i class="fas fa-clock"></i> Jam Operasional : Senin-Kamis : 07.00 - 16.00 WIB
-                Jumat : 07.00 - 16.30</p>
+                <p><i class="fas fa-clock"></i> Jam Operasional : </p>
+                <p><i class="fas fa-clock"></i> Senin-Kamis : 07.00 - 16.00 WIB</p>
+                <p><i class="fas fa-clock"></i> Jumat : 07.00 - 16.30</p>
                 <p><i class="fas fa-phone"></i> Phone: 0711410423</p>
             </div>
             <div class="col-md-6">
