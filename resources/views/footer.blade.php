@@ -2,15 +2,15 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h5>Contact Us</h5>
-                <p>Jl. Srijaya No.883, Srijaya, Kec. Alang-Alang Lebar, Kota Palembang, Sumatera Selatan 30153</p>
-                <p>Email: admin@lldikti2.id</p>
-                <p>Jam Operasional : Senin-Kamis : 07.00 - 16.00 WIB
-                Jumat : 07.00 - 16.30<p>
-                <p>Phone: 0711410423</p>
+                <h5><i class="fas fa-envelope"></i> Contact Us</h5>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Srijaya No.883, Srijaya, Kec. Alang-Alang Lebar, Kota Palembang, Sumatera Selatan 30153</p>
+                <p><i class="fas fa-envelope"></i> Email: admin@lldikti2.id</p>
+                <p><i class="fas fa-clock"></i> Jam Operasional : Senin-Kamis : 07.00 - 16.00 WIB
+                Jumat : 07.00 - 16.30</p>
+                <p><i class="fas fa-phone"></i> Phone: 0711410423</p>
             </div>
             <div class="col-md-6">
-                <h5>Follow Us</h5>
+                <h5><i class="fas fa-share-alt"></i> Follow Us</h5>
                 <ul class="list-inline">
                     <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -27,7 +27,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <p class="text-center">&copy; <?php echo date("Y"); ?> Copyright © 2024 lldikti2. All Rights Reserved.</p>
+                <p class="text-center">&copy; <?php echo date("Y"); ?> lldikti2. All Rights Reserved.</p>
             </div>
         </div>
     </div>
