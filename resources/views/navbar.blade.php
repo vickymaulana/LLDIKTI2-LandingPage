@@ -34,8 +34,6 @@
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
 }
-
-
 </style>
 </head>
 <body>
@@ -70,20 +68,21 @@
 </nav>
 
 <nav class="bg-primary">
-<div class="marquee ">
-    <p class ="mx-auto text-center">Selamat Datang di Layanan Lembaga Pendidikan Tinggi ( LLDIKTI) Wilayah II - Bumi Sriwijaya, Sang Bumi Ruwa Jurai, Serumpun Sebalai, Sekundang Setungguan Seio Sekato</p>
-</div>
+    <div class="marquee">
+        <p class="mx-auto text-center">Selamat Datang di Layanan Lembaga Pendidikan Tinggi (LLDIKTI) Wilayah II - Bumi Sriwijaya, Sang Bumi Ruwa Jurai, Serumpun Sebalai, Sekundang Setungguan Seio Sekato</p>
+    </div>
 </nav>
 
 <script>
-window.onscroll = function() {scrollFunction()};
+window.addEventListener('scroll', scrollFunction);
 
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.querySelector(".navbar").classList.add("scrolled");
-  } else {
-    document.querySelector(".navbar").classList.remove("scrolled");
-  }
+    const navbar = document.querySelector(".navbar");
+    if (window.scrollY > 80) {
+        navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled");
+    }
 }
 </script>
 
