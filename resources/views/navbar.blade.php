@@ -1,3 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navbar Buram saat Scroll</title>
+<style>
+.navbar {
+    transition: background-color 0.5s ease;
+}
+
+.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.8); /* Atur warna buram di sini */
+    backdrop-filter: blur(10px); /* Efek blur */
+}
+
+.form-control {
+    border-radius: 20px; /* Ubah nilai sesuai keinginan Anda */
+}
+
+.marquee {
+    
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+
+</style>
+</head>
+<body>
+
 <nav class="navbar navbar-expand-lg navbar-transparent">
     <a class="navbar-brand" href="#">LLDIKTI 2</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,9 +66,9 @@
 </nav>
 
 <nav class="bg-primary">
-    <div class="marquee">
-        <p class="text-white mt-auto">Selamat Datang di Layanan Lembaga Pendidikan Tinggi (LLDIKTI) Wilayah II - Bumi Sriwijaya, Sang Bumi Ruwa Jurai, Serumpun Sebalai, Sekundang Setungguan Seio Sekato</p>
-    </div>
+<div class="marquee ">
+    <p class ="mt-auto ">Selamat Datang di Layanan Lembaga Pendidikan Tinggi ( LLDIKTI) Wilayah II - Bumi Sriwijaya, Sang Bumi Ruwa Jurai, Serumpun Sebalai, Sekundang Setungguan Seio Sekato</p>
+</div>
 </nav>
 
 <script>
@@ -47,32 +85,3 @@ function scrollFunction() {
 
 </body>
 </html>
-
-<style>
-    .btn-outline-success:hover {
-        background-color: blue;
-        color: white;
-    }
-
-    .btn-outline-success {
-        color: blue;
-    }
-
-    .navbar-transparent {
-        background-color: transparent;
-    }
-
-    .btn-outline-success {
-        color: blue;
-    }
-
-    .btn-outline-success:hover {
-        background-color: blue;
-        color: white;
-    }
-
-    .navbar-transparent {
-        background-color: transparent;
-    }
-
-</style>
