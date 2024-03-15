@@ -2,7 +2,7 @@
     <div class="carousel-container">
         <div class="carousel-slide">
             <!-- Add your carousel slide content here -->
-            <img src="path/to/your/image.jpg" alt="Image">
+            <img src="https://via.placeholder.com/825x400" alt="Image">
             <p>Your text goes here</p>
         </div>
     </div>
