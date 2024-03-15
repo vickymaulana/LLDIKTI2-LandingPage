@@ -34,6 +34,41 @@
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
 }
+
+.bg-primary {
+    overflow: hidden;
+}
+
+.mx-auto {
+    display: inline-block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin: 0 10px; /* Sesuaikan jarak antar menu */
+}
+
+.nav-link {
+    color: #007bff; /* Sesuaikan warna teks */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Sesuaikan warna teks saat dihover */
+}
 </style>
 </head>
 <body>
@@ -44,7 +79,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto" style="text-align: center;">
+        <ul class="navbar-nav mx-auto">
             <li class="nav-item active">
                 <a class="nav-link text-primary" href="#">Home</a>
             </li>
@@ -74,16 +109,16 @@
 </nav>
 
 <script>
-window.addEventListener('scroll', scrollFunction);
+    window.addEventListener('scroll', scrollFunction);
 
-function scrollFunction() {
-    const navbar = document.querySelector(".navbar");
-    if (window.scrollY > 80) {
-        navbar.classList.add("scrolled");
-    } else {
-        navbar.classList.remove("scrolled");
+    function scrollFunction() {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 80) {
+            navbar.classList.add("scrolled");
+        } else {
+            navbar.classList.remove("scrolled");
+        }
     }
-}
 </script>
 
 </body>
