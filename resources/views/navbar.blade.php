@@ -19,11 +19,15 @@
 }
 
 .marquee {
-    
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
     animation: marquee 15s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
 }
 
 @keyframes marquee {
@@ -67,7 +71,7 @@
 
 <nav class="bg-primary">
 <div class="marquee ">
-    <p class ="mt-auto ">Selamat Datang di Layanan Lembaga Pendidikan Tinggi ( LLDIKTI) Wilayah II - Bumi Sriwijaya, Sang Bumi Ruwa Jurai, Serumpun Sebalai, Sekundang Setungguan Seio Sekato</p>
+    <p class ="mx-auto text-center">Selamat Datang di Layanan Lembaga Pendidikan Tinggi ( LLDIKTI) Wilayah II - Bumi Sriwijaya, Sang Bumi Ruwa Jurai, Serumpun Sebalai, Sekundang Setungguan Seio Sekato</p>
 </div>
 </nav>
 
