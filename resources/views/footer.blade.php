@@ -3,9 +3,11 @@
         <div class="row">
             <div class="col-md-6">
                 <h5>Contact Us</h5>
-                <p>123 Main Street, City, Country</p>
-                <p>Email: info@example.com</p>
-                <p>Phone: +1234567890</p>
+                <p>Jl. Srijaya No.883, Srijaya, Kec. Alang-Alang Lebar, Kota Palembang, Sumatera Selatan 30153</p>
+                <p>Email: admin@lldikti2.id</p>
+                <p>Jam Operasional : Senin-Kamis : 07.00 - 16.00 WIB
+                Jumat : 07.00 - 16.30<p>
+                <p>Phone: 0711410423</p>
             </div>
             <div class="col-md-6">
                 <h5>Follow Us</h5>
@@ -25,7 +27,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <p class="text-center">&copy; <?php echo date("Y"); ?> Your Company. All rights reserved.</p>
+                <p class="text-center">&copy; <?php echo date("Y"); ?> Copyright © 2024 lldikti2. All Rights Reserved.</p>
             </div>
         </div>
     </div>
