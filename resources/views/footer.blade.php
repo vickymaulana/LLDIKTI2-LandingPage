@@ -3,10 +3,10 @@
         <div class="row">
             <div class="col-md-6">
                 <h5>Contact Us</h5>
-                <p>Jl. Srijaya No.883, Srijaya, Kec. Alang-Alang Lebar, Kota Palembang, Sumatera Selatan 30153</p>
+                <p>Alamat : Jl. Srijaya No.883, Srijaya, Kec. Alang-Alang Lebar, Kota Palembang, Sumatera Selatan 30153</p>
                 <p>Email: admin@lldikti2.id</p>
-                <p>Jam Operasional : Senin-Kamis : 07.00 - 16.00 WIB
-                Jumat : 07.00 - 16.30<p>
+                <p>Jam Operasional : Senin-Kamis : 07.00 - 16.00 WIB<p>
+                <p>Jumat : 07.00 - 16.30</p>
                 <p>Phone: 0711410423</p>
             </div>
             <div class="col-md-6">
