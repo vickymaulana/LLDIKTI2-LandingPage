@@ -1,6 +1,5 @@
-<footer class=" bg-primary text-white py-4">
-    <div class="container">
-        <div class="row">
+    <div class="container-footer">
+        <div class="row bg-primary text-white py-4">
             <div class="col-md-6">
                 <h5><i class="fas fa-envelope"></i> Contact Us</h5>
                 <p><i class="fas fa-map-marker-alt"></i> Jl. Srijaya No.883, Srijaya, Kec. Alang-Alang Lebar, Kota Palembang, Sumatera Selatan 30153</p>
@@ -32,4 +31,3 @@
             </div>
         </div>
     </div>
-</footer>
