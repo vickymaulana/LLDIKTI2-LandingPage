@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Navbar Buram saat Scroll</title>
 <style>
 .navbar {
     transition: background-color 0.5s ease;
@@ -70,8 +64,6 @@
     color: #0056b3; /* Sesuaikan warna teks saat dihover */
 }
 </style>
-</head>
-<body>
 
 <nav class="container navbar navbar-expand-lg navbar-transparent">
     <a class="navbar-brand" href="#">LLDIKTI 2</a>
@@ -123,6 +115,3 @@
         }
     }
 </script>
-
-</body>
-</html>

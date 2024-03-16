@@ -96,8 +96,6 @@
             right: 10px;
         }
     </style>
-</head>
-<body>
     <div class="container-carousel">
         <div class="row">
             <div class="col-md-8 penata_ruang">
@@ -180,4 +178,11 @@
             setInterval(nextSlide, 3000);
 
             // Menghapus event listener dari tombol previous dan next
-            document.querySelector('.prev').removeEventListener('click', prevSlide
+            document.querySelector('.prev').removeEventListener('click', prevSlide);
+            document.querySelector('.next').removeEventListener('click', nextSlide);
+            
+            // Menambahkan event listener ke tombol previous dan next
+            document.querySelector('.prev').addEventListener('click', prevSlide);
+            document.querySelector('.next').addEventListener('click', nextSlide);
+        });
+    </script>
