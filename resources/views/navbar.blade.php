@@ -38,7 +38,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-transparent">
+<nav class="container navbar navbar-expand-lg navbar-transparent">
     <a class="navbar-brand" href="#">LLDIKTI 2</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -61,9 +61,12 @@
                 <a class="nav-link text-primary" href="#">Informasi Publik</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Cari" aria-label="Search">
-        </form>
+        <div class="social-media-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
     </div>
 </nav>
 
