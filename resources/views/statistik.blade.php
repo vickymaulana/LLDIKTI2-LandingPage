@@ -33,37 +33,41 @@
   position: relative;
   overflow: hidden;
 }
-.rectangle-176 {
+.rectangle-176 {  /* icon jumlah perguruan tinggi  */
   width: 175px;
   height: 173px;
   position: absolute;
-  left: 84px;
-  top: 49.5px;
+  left: 250px;
+  top: 50px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   object-fit: cover;
 }
-.image-22 {
+
+/* icon jumlah mahasiswa */
+.image-22 { 
   width: 194px;
   height: 194px;
-  position: absolute;
-  left: 369px;
-  top: 39px;
+  position: relative;
+  left: 550px;
+  top: 40px;
   object-fit: cover;
 }
+
+/* icon jumlah program studi */
 .image-23 {
   width: 157px;
   height: 157px;
-  position: absolute;
-  left: 673px;
-  top: 57.5px;
+  position: relative;
+  left: 650px;
+  top: 40px;
   object-fit: cover;
 }
 .image-24 {
   width: 155px;
   height: 155px;
   position: absolute;
-  left: 940px;
-  top: 58.5px;
+  left: 1100px;
+  top: 65px;
   object-fit: cover;
 }
 .jumlah-perguruan-tinggi {
