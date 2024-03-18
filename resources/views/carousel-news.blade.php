@@ -1,6 +1,17 @@
 
     <style>
         /* Masukkan gaya CSS Anda di sini */
+        .content {
+            position: absolute; /* Position the background text */
+            bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+            background: rgb(0, 0, 0); /* Fallback color */
+            background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+            color: #f1f1f1; /* Grey text */
+            width: 100%; /* Full width */
+            height: 40%;
+            padding: 20px; /* Some padding */
+        }
+
         .container-carousel {
             font-family: 'Roboto', sans-serif;
         }
@@ -15,7 +26,7 @@
 
         .carousel-container {
             display: flex;
-            transition: transform 0.5s ease;
+            transition: transform 2s ease;
         }
 
         .carousel-slide {
@@ -30,21 +41,28 @@
 
         .carousel-text {
             position: absolute;
-            bottom: 10px;
+            bottom: 1.25rem;
             left: 50%;
             transform: translateX(-50%);
             text-align: center;
             color: rgba(255, 255, 255, 0.5);
+            padding-top: 1.25rem;
+            padding-bottom: 1.25rem;
+            justify-content: left;
         }
 
         .penata_ruang {
             display: flex;
         }
 
-        .carousel-text h2,
-        .carousel-text h3,
+        .carousel-text h2, 
         .carousel-text p {
+            font-size: 1.2rem;
+        }
+
+        .carousel-text h3,
             margin: 0;
+            font-size: 1.4rem;
         }
 
         .link {
@@ -95,6 +113,15 @@
         .next {
             right: 10px;
         }
+
+        .d-none {
+            display: none !important;
+        }
+
+        .d-md-block {
+            display: block !important;
+        }
+
     </style>
     <div class="container-carousel">
         <div class="row">
@@ -102,27 +129,27 @@
                 <div class="carousel">
                     <div class="carousel-container">
                         <div class="carousel-slide">
-                            <img src="https://via.placeholder.com/825x400" alt="Slide 1">
-                            <div class="carousel-text">
-                                <h2>Judul Slide 1</h2>
-                                <h3>Sub Judul Slide 1</h3>
-                                <p>Deskripsi Slide 1</p>
+                            <img src="../img/img1.jpg" alt="Slide 1">
+                            <div class="carousel-text d-none d-md-block content">
+                                <h2>Berita</h2>
+                                <h3>UMITRA Memiliki Guru Besar Pertama Bidang Kesehatan, LLDIKTI II Serahkan SK Prof. Dr. Atikah Adyas, SKM, MDM.</h3>
+                                <p>Desember 21, 2022</p>
                             </div>
                         </div>
                         <div class="carousel-slide">
-                            <img src="https://via.placeholder.com/825x400" alt="Slide 2">
-                            <div class="carousel-text">
-                                <h2>Judul Slide 2</h2>
-                                <h3>Sub Judul Slide 2</h3>
-                                <p>Deskripsi Slide 2</p>
+                            <img src="../img/img2.jpg" alt="Slide 2">
+                            <div class="carousel-text d-none-d-md-block content">
+                                <h2>Berita</h2>
+                                <h3>LLDIKTI Wilayah II Tinjau Kesiapan Pendirian Fakultas Kedokteran UM Metro</h3>
+                                <p>Januari 19, 2023</p>
                             </div>
                         </div>
                         <div class="carousel-slide">
-                            <img src="https://via.placeholder.com/825x400" alt="Slide 3">
-                            <div class="carousel-text">
-                                <h2>Judul Slide 3</h2>
-                                <h3>Sub Judul Slide 3</h3>
-                                <p>Deskripsi Slide 3</p>
+                            <img src="../img/img3.jpg" alt="Slide 3">
+                            <div class="carousel-text d-none d-md-block content">
+                                <h2>Berita</h2>
+                                <h3>Kepala LLDikti Wilayah II Prof Iskhaq Iskandar Lontarkan Pujian Universitas Teknokrat Indonesia Banyak Gelar Pengabdian kepada Masyarakat</h3>
+                                <p>Desember 21, 2022</p>
                             </div>
                         </div>
                     </div>
@@ -135,7 +162,7 @@
                         <ul class="link" style="list-style-type: none; padding: 4; margin: 4;">
                             <!-- Tambahkan gaya CSS untuk menghilangkan titik -->
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">berita terbaru</a>
+                                <a class="nav-link" href="#">Terbaru</a>
                             </li>
                         </ul>
                     </div>
@@ -143,7 +170,7 @@
                         <ul class="link" style="list-style-type: none; padding: 4; margin: 4;">
                             <!-- Tambahkan gaya CSS untuk menghilangkan titik -->
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">berita terhangat</a>
+                                <a class="nav-link" href="#">Terpopuler</a>
                             </li>
                         </ul>
                     </div>
