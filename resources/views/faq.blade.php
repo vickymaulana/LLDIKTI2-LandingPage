@@ -296,5 +296,5 @@
   </div>
   <div class="heading">FAQs</div>
   <div class="text">Pertanyaan Yang Sering Ditanyakan</div>
-  <img class="image-36" src="image-360.png" />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V7zAO9J06hE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
