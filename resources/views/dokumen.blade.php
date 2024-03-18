@@ -1,118 +1,111 @@
-<style>.data-arsip,
-    .data-arsip * {
-      box-sizing: border-box;
-    }
-    .data-arsip {
-      height: 349px;
-      position: relative;
-      overflow-x: auto;
-    }
-    .frame-36929 {
-      display: flex;
-      flex-direction: row;
-      gap: 12px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      position: absolute;
-      left: 0px;
-      top: 22px;
-    }
-    .image-16 {
-      border-radius: 40px;
-      border-style: solid;
-      border-color: #03419e;
-      border-width: 2px;
-      flex-shrink: 0;
-      width: 238px;
-      height: 297px;
-      position: relative;
-      object-fit: cover;
-    }
-    .image-17 {
-      border-radius: 40px;
-      border-style: solid;
-      border-color: #03419e;
-      border-width: 2px;
-      flex-shrink: 0;
-      width: 238px;
-      height: 297px;
-      position: relative;
-      object-fit: cover;
-    }
-    .image-18 {
-      border-radius: 40px;
-      border-style: solid;
-      border-color: #03419e;
-      border-width: 2px;
-      flex-shrink: 0;
-      width: 238px;
-      height: 297px;
-      position: relative;
-      object-fit: cover;
-    }
-    .group-36928 {
-      flex-shrink: 0;
-      width: 238px;
-      height: 297px;
-      position: static;
-    }
-    .image-19 {
-      border-radius: 40px;
-      border-style: solid;
-      border-color: #03419e;
-      border-width: 2px;
-      width: 238px;
-      height: 297px;
-      position: absolute;
-      left: 750px;
-      top: 0px;
-      object-fit: cover;
-    }
-    .frame-369292 {
-      display: flex;
-      flex-direction: row;
-      gap: 12px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-      overflow: hidden;
-    }
-    .image-192 {
-      border-radius: 40px;
-      border-style: solid;
-      border-color: #03419e;
-      border-width: 2px;
-      flex-shrink: 0;
-      width: 238px;
-      height: 297px;
-      position: relative;
-      object-fit: cover;
-    }
-    .frame-36930 {
-      display: flex;
-      flex-direction: row;
-      gap: 12px;
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-shrink: 0;
-      position: relative;
-      overflow: hidden;
-    }
-    </style>
-<div class="data-arsip">
-    <div class="frame-36929">
-      <img class="image-16" src="image-160.png" />
-      <img class="image-17" src="image-170.png" />
-      <img class="image-18" src="image-180.png" />
-      <div class="group-36928">
-        <img class="image-19" src="image-190.png" />
-      </div>
-      <div class="frame-369292">
-        <img class="image-192" src="image-191.png" />
-      </div>
-      <div class="frame-36930">
-        <img class="image-192" src="image-192.png" />
-      </div>
-    </div>
-  </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scrollable Boxes with Buttons and Images</title>
+<style>
+  .box-container {
+    display: flex;
+    flex-wrap: nowrap; /* Menghindari wrap ke baris baru */
+    overflow-x: auto; /* Memberikan kemampuan scroll ke kiri dan ke kanan */
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .box {
+    flex: 0 0 auto; /* Membuat lebar kotak tetap */
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+</style>
+</head>
+<body>
+
+<div class="box-container">
+  <div class="box">
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+  </div>
+  <div class="box">
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+  </div>
+  <div class="box">
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+  </div>
+  <div class="box">
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+  </div>
+  <div class="box">
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+  </div>
+  <div class="box">
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+  </div>
+  <div class="box">
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+  </div>
+  <div class="box">
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+  </div>
+  <div class="box">
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+  </div>
+  <div class="box">
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+  </div>
+
+  <!-- Tambahkan kotak-kotak lain di sini sesuai kebutuhan -->
+</div>
+
+</body>
+</html>
