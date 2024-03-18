@@ -37,7 +37,7 @@
   width: 175px;
   height: 173px;
   position: absolute;
-  left: 250px;
+  left: 275px;
   top: 50px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   object-fit: cover;
@@ -62,6 +62,8 @@
   top: 40px;
   object-fit: cover;
 }
+
+/* icon jumlah dosen */
 .image-24 {
   width: 155px;
   height: 155px;
@@ -78,8 +80,8 @@
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 56px;
-  top: 256px;
+  left: 250px;
+  top: 255px;
   width: 230px;
 }
 .rectangle-247 {
@@ -87,7 +89,7 @@
   width: 243px;
   height: 72px;
   position: absolute;
-  left: 50px;
+  left: 240px;
   top: 242px;
   overflow: visible;
 }
@@ -96,7 +98,7 @@
   width: 243px;
   height: 72px;
   position: absolute;
-  left: 345px;
+  left: 525px;
   top: 242px;
   overflow: visible;
 }
@@ -108,7 +110,7 @@
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 419px;
+  left: 600px;
   top: 231px;
   width: 92px;
   height: 44px;
@@ -121,7 +123,7 @@
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 379px;
+  left: 550px;
   top: 258px;
 }
 .rectangle-249 {
@@ -129,7 +131,7 @@
   width: 243px;
   height: 72px;
   position: absolute;
-  left: 630px;
+  left: 790px;
   top: 242px;
   overflow: visible;
 }
@@ -141,7 +143,7 @@
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 715px;
+  left: 875px;
   top: 231px;
   width: 73px;
   height: 44px;
@@ -154,7 +156,7 @@
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 649px;
+  left: 800px;
   top: 258px;
 }
 .rectangle-250 {
@@ -162,7 +164,7 @@
   width: 243px;
   height: 72px;
   position: absolute;
-  left: 896px;
+  left: 1050px;
   top: 242px;
   overflow: visible;
 }
@@ -174,7 +176,7 @@
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 981px;
+  left: 1135px;
   top: 231px;
   width: 73px;
   height: 44px;
@@ -187,9 +189,11 @@
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 925px;
-  top: 261px;
+  left: 1075px;
+  top: 260px;
 }
+
+/* Angka statistik jumlah perguruan */
 ._270 {
   color: #000000;
   text-align: center;
@@ -197,9 +201,9 @@
   font-size: 24px;
   line-height: 66px;
   font-weight: 700;
-  position: absolute;
-  left: 135px;
-  top: 233px;
+  position: relative;
+  left: 325px;
+  top: 35px;
   width: 73px;
   height: 44px;
 }
