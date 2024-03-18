@@ -13,6 +13,7 @@
         <p>PSI JAYA JAYA JAYA</p>
         @include('carousel-news')
     </div>
+    @include('layanan-aplikasi')
     @include('dokumen')
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
