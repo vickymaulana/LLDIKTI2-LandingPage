@@ -202,10 +202,10 @@
 </style>
 
 <div class="frame-36932">
-  <img class="rectangle-176" src="rectangle-1760.png" />
-  <img class="image-22" src="image-220.png" />
-  <img class="image-23" src="image-230.png" />
-  <img class="image-24" src="image-240.png" />
+  <img class="rectangle-176" src="/img/school.png" />
+  <img class="image-22" src="/img/student.png" />
+  <img class="image-23" src="/img/prodi.png" />
+  <img class="image-24" src="/img/dosen.png" />
   <div class="jumlah-perguruan-tinggi">Jumlah Perguruan Tinggi</div>
   <svg
     class="rectangle-247"
