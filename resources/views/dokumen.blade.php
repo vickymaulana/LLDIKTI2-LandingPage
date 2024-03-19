@@ -17,7 +17,7 @@
     flex: 0 0 auto; /* Membuat lebar kotak tetap */
     width: 400px;
     padding: 25px;
-    border: 4px solid #1841f7;
+    border: 1px solid #1841f7;
     border-radius: 50px;
     text-align: center;
   }
