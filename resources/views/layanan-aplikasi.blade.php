@@ -38,18 +38,24 @@
 </div>
 </div>
 <div class="container" style="display: flex; justify-content: center; align-items: center; padding-top:20px;">
-  <div class="card">
+<a href="https://sikito.lldikti2.id/" target="_blank">
+<div class="card">
     <img src="./img/176184.png" class="card-img-top" alt="...">
     <div class="card-body"></div>
   </div>
+</a>
+<a href="https://missmonik.lldikti2.id/" target="_blank">
   <div class="card">
     <img src="./img/176185.png" class="card-img-top" alt="...">
     <div class="card-body"></div>
   </div>
+</a>
+<a href="https://dites.lldikti2.id/" target="_blank">
   <div class="card">
     <img src="./img/176186.png" class="card-img-top" alt="...">
     <div class="card-body"></div>
   </div>
+</a>
   <div class="card">
     <img src="./img/176187.png" class="card-img-top" alt="...">
     <div class="card-body"></div>
