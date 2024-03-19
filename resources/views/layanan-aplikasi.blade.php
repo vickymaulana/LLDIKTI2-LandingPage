@@ -23,7 +23,7 @@
   .container {
     display: flex;
     justify-content: space-around;
-    padding-right: 150px;
+    padding-right: 50px;
   }
 
   .card {
@@ -32,32 +32,43 @@
   }
 </style>
 
+
+
 <div class="container" style="display: flex; justify-content: center; align-items: center; height: 10vh;">
 <div class="title page" style="text-align: center;">
-  <h2 style="margin: 0 auto;">Layanan Aplikasi</h2>
+<div data-aos="zoom-in">
+  <h2 style="margin: 0 auto;">Layanan Aplikasi</h2></div>
 </div>
 </div>
 <div class="container" style="display: flex; justify-content: center; align-items: center; padding-top:20px;">
 <a href="https://sikito.lldikti2.id/" target="_blank">
 <div class="card">
-    <img src="./img/176184.png" class="card-img-top" alt="...">
+<div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+    <img src="./img/176184.png" class="card-img-top" alt="..."></div>
     <div class="card-body"></div>
   </div>
 </a>
 <a href="https://missmonik.lldikti2.id/" target="_blank">
   <div class="card">
-    <img src="./img/176185.png" class="card-img-top" alt="...">
+  <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+    <img src="./img/176185.png" class="card-img-top" alt="..."></div>
     <div class="card-body"></div>
   </div>
 </a>
 <a href="https://dites.lldikti2.id/" target="_blank">
   <div class="card">
-    <img src="./img/176186.png" class="card-img-top" alt="...">
+  <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+    <img src="./img/176186.png" class="card-img-top" alt="..."></div>
     <div class="card-body"></div>
   </div>
 </a>
   <div class="card">
-    <img src="./img/176187.png" class="card-img-top" alt="...">
+  <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+    <img src="./img/176187.png" class="card-img-top" alt="..."></div>
     <div class="card-body"></div>
   </div>
 </div>

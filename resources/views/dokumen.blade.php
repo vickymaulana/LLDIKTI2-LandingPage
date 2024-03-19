@@ -15,10 +15,10 @@
 
   .box {
     flex: 0 0 auto; /* Membuat lebar kotak tetap */
-    width: 300px;
-    padding: 20px;
+    width: 250px;
+    padding: 25px;
     border: 2px solid #174967;
-    border-radius: 45px;
+    border-radius: 25px;
     text-align: center;
   }
 
@@ -45,83 +45,103 @@
 
 
 <div class="title_page" >
-  DOKUMEN Arsip LLDikti 2
+<div data-aos="zoom-in">
+  DOKUMEN Arsip LLDikti 2 </div>
 </div>
 
 <body>
   
 <div class="box-container">
+<div data-aos="flip-left">
   <div class="box">
+  <div data-aos="flip-left">
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button>
-  </div>
+    <button type="button" class="btn btn-outline-success">Success</button></div>
+  </div></div>
+  <div data-aos="flip-left">
   <div class="box">
+  <div data-aos="flip-left">
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button>
-  </div>
+    <button type="button" class="btn btn-outline-success">Success</button></div>
+  </div></div>
+  <div data-aos="flip-left">
   <div class="box">
+  <div data-aos="flip-left">
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button>
-  </div>
+    <button type="button" class="btn btn-outline-success">Success</button></div>
+  </div></div>
+  <div data-aos="flip-left">
   <div class="box">
+  <div data-aos="flip-left">
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button>
-  </div>
+    <button type="button" class="btn btn-outline-success">Success</button></div>
+  </div></div>
+  <div data-aos="flip-left">
   <div class="box">
+  <div data-aos="flip-left">
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button>
-  </div>
+    <button type="button" class="btn btn-outline-success">Success</button></div>
+  </div></div>
+  <div data-aos="flip-left">
   <div class="box">
+  <div data-aos="flip-left">
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button>
-  </div>
+    <button type="button" class="btn btn-outline-success">Success</button></div>
+  </div></div>
+  <div data-aos="flip-left">
   <div class="box">
+  <div data-aos="flip-left">
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button>
-  </div>
+    <button type="button" class="btn btn-outline-success">Success</button></div>
+  </div></div>
+  <div data-aos="flip-left">
   <div class="box">
+  <div data-aos="flip-left">
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button>
-  </div>
+    <button type="button" class="btn btn-outline-success">Success</button></div>
+  </div></div>
+  <div data-aos="flip-left">
   <div class="box">
+  <div data-aos="flip-left">
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button>
-  </div>
+    <button type="button" class="btn btn-outline-success">Success</button></div>
+  </div></div>
+  <div data-aos="flip-left">
   <div class="box">
+  <div data-aos="flip-left">
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button>
-  </div>
-
+    <button type="button" class="btn btn-outline-success">Success</button></div>
+  </div></div>
   <!-- Tambahkan kotak-kotak lain di sini sesuai kebutuhan -->
 </div>
 
