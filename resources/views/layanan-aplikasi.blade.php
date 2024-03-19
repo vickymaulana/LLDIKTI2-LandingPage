@@ -23,7 +23,7 @@
   .container {
     display: flex;
     justify-content: space-around;
-    padding-right: 50px;
+    padding-right: 150px;
   }
 
   .card {
