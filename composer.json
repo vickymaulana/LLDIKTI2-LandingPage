@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "LLDIKTI2-LandingPage",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "LLDIKTI 2 Landing Page",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {

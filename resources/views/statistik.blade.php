@@ -1,13 +1,18 @@
 <style>
+  .container{
+    margin-left: 12%;
+    margin-right: auto;
+  }
 .data-statistik-perguruan-tinggi,
 .data-statistik-perguruan-tinggi * {
   box-sizing: border-box;
+  
 }
 .data-statistik-perguruan-tinggi {
-  color: #000000;
+  color: #174967;
   text-align: center;
-  font-family: "Outfit-Bold", sans-serif;
-  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
   line-height: 66px;
   font-weight: 700;
   position: relative;
@@ -25,6 +30,7 @@
 .frame-36932,
 .frame-36932 * {
   box-sizing: border-box;
+  
 }
 .frame-36932 {
   background: rgba(3, 65, 158, 0.01);
@@ -32,56 +38,52 @@
   height: 322px;
   position: relative;
   overflow: hidden;
+  justify-content: center;
+  justify-items: center;
 }
-.rectangle-176 {  /* icon jumlah perguruan tinggi  */
+.rectangle-176 {
   width: 175px;
   height: 173px;
   position: absolute;
-  left: 275px;
-  top: 50px;
+  left: 84px;
+  top: 49.5px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   object-fit: cover;
 }
-
-/* icon jumlah mahasiswa */
-.image-22 { 
+.image-22 {
   width: 194px;
   height: 194px;
-  position: relative;
-  left: 550px;
-  top: 40px;
+  position: absolute;
+  left: 369px;
+  top: 39px;
   object-fit: cover;
 }
-
-/* icon jumlah program studi */
 .image-23 {
   width: 157px;
   height: 157px;
-  position: relative;
-  left: 650px;
-  top: 40px;
+  position: absolute;
+  left: 673px;
+  top: 57.5px;
   object-fit: cover;
 }
-
-/* icon jumlah dosen */
 .image-24 {
   width: 155px;
   height: 155px;
   position: absolute;
-  left: 1100px;
-  top: 65px;
+  left: 940px;
+  top: 58.5px;
   object-fit: cover;
 }
 .jumlah-perguruan-tinggi {
-  color: #000000;
+  color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 20px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 250px;
-  top: 255px;
+  left: 56px;
+  top: 256px;
   width: 230px;
 }
 .rectangle-247 {
@@ -89,7 +91,7 @@
   width: 243px;
   height: 72px;
   position: absolute;
-  left: 240px;
+  left: 50px;
   top: 242px;
   overflow: visible;
 }
@@ -98,32 +100,32 @@
   width: 243px;
   height: 72px;
   position: absolute;
-  left: 525px;
+  left: 345px;
   top: 242px;
   overflow: visible;
 }
 ._642-919 {
-  color: #000000;
+  color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 24px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 600px;
+  left: 419px;
   top: 231px;
   width: 92px;
   height: 44px;
 }
 .jumlah-mahasiswa {
-  color: #000000;
+  color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 20px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 550px;
+  left: 379px;
   top: 258px;
 }
 .rectangle-249 {
@@ -131,32 +133,32 @@
   width: 243px;
   height: 72px;
   position: absolute;
-  left: 790px;
+  left: 630px;
   top: 242px;
   overflow: visible;
 }
 ._1-987 {
-  color: #000000;
+  color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 24px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 875px;
+  left: 715px;
   top: 231px;
   width: 73px;
   height: 44px;
 }
 .jumlah-program-studi {
-  color: #000000;
+  color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 20px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 800px;
+  left: 649px;
   top: 258px;
 }
 .rectangle-250 {
@@ -164,52 +166,51 @@
   width: 243px;
   height: 72px;
   position: absolute;
-  left: 1050px;
+  left: 896px;
   top: 242px;
   overflow: visible;
 }
 ._25-119 {
-  color: #000000;
+  color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 24px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 1135px;
+  left: 981px;
   top: 231px;
   width: 73px;
   height: 44px;
 }
 .jumlah-dosen-tetap {
-  color: #000000;
+  color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 20px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 1075px;
-  top: 260px;
+  left: 925px;
+  top: 261px;
 }
-
-/* Angka statistik jumlah perguruan */
 ._270 {
-  color: #000000;
+  color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 24px;
   line-height: 66px;
   font-weight: 700;
-  position: relative;
-  left: 325px;
-  top: 35px;
+  position: absolute;
+  left: 135px;
+  top: 233px;
   width: 73px;
   height: 44px;
 }
 </style>
 
-<div class="frame-36932">
+
+<div class="frame-36932 center container">
   <img class="rectangle-176" src="/img/school.png" />
   <img class="image-22" src="/img/student.png" />
   <img class="image-23" src="/img/prodi.png" />

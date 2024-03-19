@@ -17,7 +17,7 @@
     flex: 0 0 auto; /* Membuat lebar kotak tetap */
     width: 300px;
     padding: 20px;
-    border: 2px solid #ccc;
+    border: 1px solid #1841f7;
     border-radius: 10px;
     text-align: center;
   }
@@ -28,8 +28,26 @@
     border-radius: 8px;
     margin-bottom: 15px;
   }
+  .title_page{
+  color: #174967;
+  text-align: center;
+  font-family: "Outfit-Bold", sans-serif;
+  font-size: 40px;
+  line-height: 66px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 </style>
 </head>
+
+
+<div class="title_page" >
+  Dokumen Arsip LLDIKTI II
+</div>
+
 <body>
 
 <div class="box-container">
