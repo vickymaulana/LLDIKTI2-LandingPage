@@ -45,11 +45,11 @@
 
 
 <div class="title_page" >
-  DOKUMEN
+  Dokumen Arsip LLDIKTI II
 </div>
 
 <body>
-  
+
 <div class="box-container">
   <div class="box">
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
