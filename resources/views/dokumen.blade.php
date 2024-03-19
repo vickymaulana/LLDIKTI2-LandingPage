@@ -17,8 +17,8 @@
     flex: 0 0 auto; /* Membuat lebar kotak tetap */
     width: 300px;
     padding: 20px;
-    border: 1px solid #1841f7;
-    border-radius: 10px;
+    border: 2px solid #174967;
+    border-radius: 45px;
     text-align: center;
   }
 
@@ -32,7 +32,7 @@
   color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 66px;
   font-weight: 700;
   position: relative;
@@ -45,11 +45,11 @@
 
 
 <div class="title_page" >
-  Dokumen Arsip LLDIKTI II
+  DOKUMEN Arsip LLDikti 2
 </div>
 
 <body>
-
+  
 <div class="box-container">
   <div class="box">
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">

@@ -11,7 +11,7 @@
     color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 66px;
   font-weight: 700;
   position: relative;
@@ -23,7 +23,7 @@
   .container {
     display: flex;
     justify-content: space-around;
-    padding-right: 150px;
+    padding-right: 50px;
   }
 
   .card {
