@@ -15,10 +15,10 @@
 
   .box {
     flex: 0 0 auto; /* Membuat lebar kotak tetap */
-    width: 300px;
-    padding: 20px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
+    width: 400px;
+    padding: 25px;
+    border: 4px solid #1841f7;
+    border-radius: 50px;
     text-align: center;
   }
 
