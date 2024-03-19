@@ -57,6 +57,7 @@
   left: 369px;
   top: 39px;
   object-fit: cover;
+  margin-left: 30px;
 }
 .image-23 {
   width: 157px;
@@ -65,6 +66,7 @@
   left: 673px;
   top: 57.5px;
   object-fit: cover;
+  margin-left: 30px;
 }
 .image-24 {
   width: 155px;
@@ -73,6 +75,7 @@
   left: 940px;
   top: 58.5px;
   object-fit: cover;
+  margin-left: 25px;
 }
 .jumlah-perguruan-tinggi {
   color: #000000;
@@ -85,6 +88,7 @@
   left: 56px;
   top: 256px;
   width: 230px;
+  margin-top: 20px;
 }
 .rectangle-247 {
   border-radius: 0px;
@@ -108,7 +112,7 @@
   color: #000000;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
-  font-size: 24px;
+  font-size: 40px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
@@ -116,6 +120,9 @@
   top: 231px;
   width: 92px;
   height: 44px;
+margin-left: 2px;
+  
+  
 }
 .jumlah-mahasiswa {
   color: #000000;
@@ -127,6 +134,8 @@
   position: absolute;
   left: 379px;
   top: 258px;
+  margin-top: 20px;
+  margin-left: 30px;
 }
 .rectangle-249 {
   border-radius: 0px;
@@ -141,7 +150,7 @@
   color: #000000;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
-  font-size: 24px;
+  font-size: 40px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
@@ -149,6 +158,7 @@
   top: 231px;
   width: 73px;
   height: 44px;
+  margin-left: 10px;
 }
 .jumlah-program-studi {
   color: #000000;
@@ -160,6 +170,8 @@
   position: absolute;
   left: 649px;
   top: 258px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 .rectangle-250 {
   border-radius: 0px;
@@ -174,7 +186,7 @@
   color: #000000;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
-  font-size: 24px;
+  font-size: 40px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
@@ -193,12 +205,14 @@
   position: absolute;
   left: 925px;
   top: 261px;
+  margin-top: 20px;
+  margin-left: 30px;
 }
 ._270 {
   color: #000000;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
-  font-size: 24px;
+  font-size: 40px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
@@ -224,13 +238,7 @@
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g filter="url(#filter0_i_3_600)">
-      <path
-        d="M0 16C0 7.16344 7.16344 0 16 0H227C235.837 0 243 7.16344 243 16V56C243 64.8366 235.837 72 227 72H16C7.16345 72 0 64.8366 0 56V16Z"
-        fill="#03419E"
-        fill-opacity="0.05"
-      />
-    </g>
+    
     <defs>
       <filter
         id="filter0_i_3_600"
@@ -273,13 +281,7 @@
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g filter="url(#filter0_i_3_602)">
-      <path
-        d="M0 16C0 7.16344 7.16344 0 16 0H227C235.837 0 243 7.16344 243 16V56C243 64.8366 235.837 72 227 72H16C7.16345 72 0 64.8366 0 56V16Z"
-        fill="#03419E"
-        fill-opacity="0.05"
-      />
-    </g>
+   
     <defs>
       <filter
         id="filter0_i_3_602"
@@ -328,13 +330,7 @@
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g filter="url(#filter0_i_3_603)">
-      <path
-        d="M0 16C0 7.16344 7.16344 0 16 0H227C235.837 0 243 7.16344 243 16V56C243 64.8366 235.837 72 227 72H16C7.16345 72 0 64.8366 0 56V16Z"
-        fill="#03419E"
-        fill-opacity="0.05"
-      />
-    </g>
+   
     <defs>
       <filter
         id="filter0_i_3_603"
@@ -379,13 +375,7 @@
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g filter="url(#filter0_i_3_604)">
-      <path
-        d="M0 16C0 7.16344 7.16344 0 16 0H227C235.837 0 243 7.16344 243 16V56C243 64.8366 235.837 72 227 72H16C7.16345 72 0 64.8366 0 56V16Z"
-        fill="#03419E"
-        fill-opacity="0.05"
-      />
-    </g>
+   
     <defs>
       <filter
         id="filter0_i_3_604"
