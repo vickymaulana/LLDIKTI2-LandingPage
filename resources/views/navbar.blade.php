@@ -128,12 +128,9 @@
                     <a class="nav-link text-primary" href="#">Informasi Publik</a>
                 </li>
             </ul>
-            <div class="social-media-icons">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-tiktok"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
+              <form class="form-inline my-2 my-lg-0 rounded-pill">
+            <input class="form-control mr-sm-2 rounded-pill " type="search" placeholder="Search" aria-label="Search">
+         </form>
         </div>
     </nav>
     
