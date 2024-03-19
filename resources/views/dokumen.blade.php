@@ -28,10 +28,28 @@
     border-radius: 8px;
     margin-bottom: 15px;
   }
+  .title_page{
+  color: #174967;
+  text-align: center;
+  font-family: "Outfit-Bold", sans-serif;
+  font-size: 40px;
+  line-height: 66px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 </style>
 </head>
-<body>
 
+
+<div class="title_page" >
+  DOKUMEN
+</div>
+
+<body>
+  
 <div class="box-container">
   <div class="box">
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">

@@ -9,7 +9,7 @@
   
 }
 .data-statistik-perguruan-tinggi {
-  color: #000000;
+  color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 20px;
