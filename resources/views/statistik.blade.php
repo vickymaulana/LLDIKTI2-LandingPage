@@ -1,18 +1,13 @@
 <style>
-  .container{
-    margin-left: 12%;
-    margin-right: auto;
-  }
 .data-statistik-perguruan-tinggi,
 .data-statistik-perguruan-tinggi * {
   box-sizing: border-box;
-  
 }
 .data-statistik-perguruan-tinggi {
-  color: #174967;
+  color: #000000;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
-  font-size: 20px;
+  font-size: 40px;
   line-height: 66px;
   font-weight: 700;
   position: relative;
@@ -30,7 +25,6 @@
 .frame-36932,
 .frame-36932 * {
   box-sizing: border-box;
-  
 }
 .frame-36932 {
   background: rgba(3, 65, 158, 0.01);
@@ -38,40 +32,44 @@
   height: 322px;
   position: relative;
   overflow: hidden;
-  justify-content: center;
-  justify-items: center;
 }
-.rectangle-176 {
+.rectangle-176 {  /* icon jumlah perguruan tinggi  */
   width: 175px;
   height: 173px;
   position: absolute;
-  left: 84px;
-  top: 49.5px;
+  left: 275px;
+  top: 50px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   object-fit: cover;
 }
-.image-22 {
+
+/* icon jumlah mahasiswa */
+.image-22 { 
   width: 194px;
   height: 194px;
-  position: absolute;
-  left: 369px;
-  top: 39px;
+  position: relative;
+  left: 550px;
+  top: 40px;
   object-fit: cover;
 }
+
+/* icon jumlah program studi */
 .image-23 {
   width: 157px;
   height: 157px;
-  position: absolute;
-  left: 673px;
-  top: 57.5px;
+  position: relative;
+  left: 650px;
+  top: 40px;
   object-fit: cover;
 }
+
+/* icon jumlah dosen */
 .image-24 {
   width: 155px;
   height: 155px;
   position: absolute;
-  left: 940px;
-  top: 58.5px;
+  left: 1100px;
+  top: 65px;
   object-fit: cover;
 }
 .jumlah-perguruan-tinggi {
@@ -82,8 +80,8 @@
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 56px;
-  top: 256px;
+  left: 250px;
+  top: 255px;
   width: 230px;
 }
 .rectangle-247 {
@@ -91,7 +89,7 @@
   width: 243px;
   height: 72px;
   position: absolute;
-  left: 50px;
+  left: 240px;
   top: 242px;
   overflow: visible;
 }
@@ -100,7 +98,7 @@
   width: 243px;
   height: 72px;
   position: absolute;
-  left: 345px;
+  left: 525px;
   top: 242px;
   overflow: visible;
 }
@@ -112,7 +110,7 @@
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 419px;
+  left: 600px;
   top: 231px;
   width: 92px;
   height: 44px;
@@ -125,7 +123,7 @@
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 379px;
+  left: 550px;
   top: 258px;
 }
 .rectangle-249 {
@@ -133,7 +131,7 @@
   width: 243px;
   height: 72px;
   position: absolute;
-  left: 630px;
+  left: 790px;
   top: 242px;
   overflow: visible;
 }
@@ -145,7 +143,7 @@
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 715px;
+  left: 875px;
   top: 231px;
   width: 73px;
   height: 44px;
@@ -158,7 +156,7 @@
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 649px;
+  left: 800px;
   top: 258px;
 }
 .rectangle-250 {
@@ -166,7 +164,7 @@
   width: 243px;
   height: 72px;
   position: absolute;
-  left: 896px;
+  left: 1050px;
   top: 242px;
   overflow: visible;
 }
@@ -178,7 +176,7 @@
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 981px;
+  left: 1135px;
   top: 231px;
   width: 73px;
   height: 44px;
@@ -191,9 +189,11 @@
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 925px;
-  top: 261px;
+  left: 1075px;
+  top: 260px;
 }
+
+/* Angka statistik jumlah perguruan */
 ._270 {
   color: #000000;
   text-align: center;
@@ -201,16 +201,15 @@
   font-size: 24px;
   line-height: 66px;
   font-weight: 700;
-  position: absolute;
-  left: 135px;
-  top: 233px;
+  position: relative;
+  left: 325px;
+  top: 35px;
   width: 73px;
   height: 44px;
 }
 </style>
 
-
-<div class="frame-36932 center container">
+<div class="frame-36932">
   <img class="rectangle-176" src="/img/school.png" />
   <img class="image-22" src="/img/student.png" />
   <img class="image-23" src="/img/prodi.png" />
