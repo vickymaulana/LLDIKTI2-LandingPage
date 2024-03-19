@@ -26,7 +26,9 @@
 </style>
 
 <div class="title page">
-  <h2>Layanan Aplikasi</h2>
+  <div style = "text-align:center;">
+    <h2>Layanan Aplikasi</h2>
+  </div>
 </div>
 
 <div class="container">
@@ -47,3 +49,4 @@
     <div class="card-body"></div>
   </div>
 </div>
+
