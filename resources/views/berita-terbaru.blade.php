@@ -265,7 +265,7 @@
 
 <body>
 
-    <div class="frame-36941">
+    {{-- <div class="frame-36941">
         <div class="kotak">
             <div type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <div type="button" class="kategori">Kategori
@@ -329,8 +329,63 @@
             <div type="button" onclick="aqua()" class="filter">Filter</div>
 
         </div>
+    </div> --}}
+
+    <div class="btn-group me-2">
+      <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Kategori
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Teknik</a></li>
+        <li><a class="dropdown-item" href="#">Pendidikan</a></li>
+        <li><a class="dropdown-item" href="#">Ekonomi</a></li>
+      </ul>
     </div>
+
+    <div class="btn-group me-2">
+      <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Minggu
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Pertama</a></li>
+        <li><a class="dropdown-item" href="#">Kedua</a></li>
+        <li><a class="dropdown-item" href="#">Ketiga</a></li>
+        <li><a class="dropdown-item" href="#">Keempat</a></li>
+      </ul>
     </div>
+
+    <div class="btn-group me-2">
+      <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Bulan
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Januari</a></li>
+        <li><a class="dropdown-item" href="#">Februari</a></li>
+        <li><a class="dropdown-item" href="#">Maret</a></li>
+        <li><a class="dropdown-item" href="#">April</a></li>
+        <li><a class="dropdown-item" href="#">Mei</a></li>
+        <li><a class="dropdown-item" href="#">Juni</a></li>
+        <li><a class="dropdown-item" href="#">Juli</a></li>
+        <li><a class="dropdown-item" href="#">Agustus</a></li>
+        <li><a class="dropdown-item" href="#">September</a></li>
+        <li><a class="dropdown-item" href="#">Oktober</a></li>
+        <li><a class="dropdown-item" href="#">November</a></li>
+        <li><a class="dropdown-item" href="#">Desember</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group me-2">
+      <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Tahun
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">2024</a></li>
+        <li><a class="dropdown-item" href="#">2023</a></li>
+        <li><a class="dropdown-item" href="#">2022</a></li>
+      </ul>
+    </div>
+
+    <button type="button" class="btn btn-primary"><i class="fa-solid fa-filter me-2"></i>Filter</button>
 
     <div class="frame-81" >
         <div class="pertama">
