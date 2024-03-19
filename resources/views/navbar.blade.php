@@ -31,6 +31,7 @@
 
 .bg-primary {
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .mx-auto {
@@ -61,7 +62,40 @@
 }
 
 .nav-link:hover {
-    color: #0056b3; /* Sesuaikan warna teks saat dihover */
+    color: #0056b3; 
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .social-media-icons {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.5rem;
+    }
+
+    .navbar-toggler-icon {
+        font-size: 1rem;
+    }
+
+    .marquee p {
+        font-size: 14px;
+    }
 }
 </style>
 

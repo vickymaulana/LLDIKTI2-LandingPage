@@ -30,6 +30,7 @@
     width: 100%;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.3s ease;
+    z-index: -1; 
   }
 
   .p-2:hover {
@@ -39,6 +40,7 @@
   .p-2:hover::after {
     border-bottom-color: blue; /* Ubah warna garis bawah menjadi biru saat dihover */
   }
+
 </style>
 </head>
 <body class="p-3 m-0 border-0 bd-example">
@@ -77,11 +79,21 @@
         </div>
       </div>
     </div>
-    <div class="p-2 "><b>TERBARU</b></div>
-    <div class="p-2 "><b>TERPOPULER</b></div>
-</div>
 
+    <div class="col-md-2">
+      <div class="row">
+        <div class="col-6">
+          <div class="p-2 mb-3"><b>TERBARU</b></div>
+        </div>
+        <div class="col-6">
+          <div class="p-2 mb-3"><b>TERPOPULER</b></div>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
 
 </body>
 </html>
+
+
