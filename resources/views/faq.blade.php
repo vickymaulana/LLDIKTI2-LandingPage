@@ -177,9 +177,9 @@
   .image-36 {
     width: 749px;
     height: 434px;
-    position: absolute;
+    position: relative;
     left: 32px;
-    top: 172px;
+    top: -300px;
     object-fit: cover;
   }
 </style>
@@ -230,7 +230,8 @@
   </div>
   <div class="heading">FAQs</div>
   <div class="text">Pertanyaan Yang Sering Ditanyakan</div>
-  <iframe class="image-36" width="560" height="315" src="https://www.youtube.com/embed/V7zAO9J06hE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div data-aos="fade-right">
+  <iframe class="image-36" width="560" height="315" src="https://www.youtube.com/embed/V7zAO9J06hE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 </div>
 
 <script>
