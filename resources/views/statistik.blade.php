@@ -11,8 +11,8 @@
 .data-statistik-perguruan-tinggi {
   color: #174967;
   text-align: center;
-  font-family: "Outfit-Bold", sans-serif;
-  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
   line-height: 66px;
   font-weight: 700;
   position: relative;
@@ -75,7 +75,7 @@
   object-fit: cover;
 }
 .jumlah-perguruan-tinggi {
-  color: #000000;
+  color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 20px;
@@ -105,7 +105,7 @@
   overflow: visible;
 }
 ._642-919 {
-  color: #000000;
+  color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 24px;
@@ -118,7 +118,7 @@
   height: 44px;
 }
 .jumlah-mahasiswa {
-  color: #000000;
+  color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 20px;
@@ -138,7 +138,7 @@
   overflow: visible;
 }
 ._1-987 {
-  color: #000000;
+  color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 24px;
@@ -151,7 +151,7 @@
   height: 44px;
 }
 .jumlah-program-studi {
-  color: #000000;
+  color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 20px;
@@ -171,7 +171,7 @@
   overflow: visible;
 }
 ._25-119 {
-  color: #000000;
+  color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 24px;
@@ -184,7 +184,7 @@
   height: 44px;
 }
 .jumlah-dosen-tetap {
-  color: #000000;
+  color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 20px;
@@ -195,7 +195,7 @@
   top: 261px;
 }
 ._270 {
-  color: #000000;
+  color: #174967;
   text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 24px;

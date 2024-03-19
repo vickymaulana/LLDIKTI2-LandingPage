@@ -10,9 +10,9 @@
 <body>
     @include('carousel-news')
     @include('berita-terbaru')
-    @include('layanan-aplikasi')
     @include('social-media')
     @include('dokumen')
+    @include('layanan-aplikasi')
     @include('statistik')
     @include('faq')
 
