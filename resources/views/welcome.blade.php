@@ -8,11 +8,7 @@
     @include('navbar')
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to LLDIKTI 2</h1>
-        <p>PSI JAYA JAYA JAYA</p>
-        @include('carousel-news')
-    </div>
+    @include('carousel-news')
     @include('berita-terbaru')
     @include('layanan-aplikasi')
     @include('social-media')
