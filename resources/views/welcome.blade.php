@@ -13,6 +13,7 @@
         <p>PSI JAYA JAYA JAYA</p>
         @include('carousel-news')
     </div>
+    @include('berita-terbaru')
     @include('layanan-aplikasi')
     @include('social-media')
     @include('dokumen')
