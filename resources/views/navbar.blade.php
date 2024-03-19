@@ -104,7 +104,9 @@
     </style>
     
     <nav class="container navbar navbar-expand-lg navbar-transparent">
-        <img class="image-logo-navbar" src="/img/logoLLDikti2.png" >
+        <a class="navbar-brand" href="#">
+            <img class="image-logo-navbar" src="/img/logoLLDikti2.png" alt="Logo">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
