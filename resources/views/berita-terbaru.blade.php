@@ -342,7 +342,7 @@
         </div>
     </div> --}}
 
-  <select class="btn btn-outline-secondary me-2 mt-2">
+  <select class="btn btn-outline-secondary ms-3 me-2 mt-2">
     <option selected>Kategori</option>
     <option value="1">Teknik</option>
     <option value="2">Pendidikan</option>
