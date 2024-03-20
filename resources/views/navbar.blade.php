@@ -104,53 +104,51 @@
     </style>
     
     <nav class="container navbar navbar-expand-lg navbar-transparent">
-        <a class="navbar-brand" href="#">
-            <img class="image-logo-navbar" src="/img/logoLLDikti2.png" alt="Logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item active">
-                    <a class="nav-link text-primary" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-primary" href="#">Berita</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-primary" href="#">Info</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-primary" href="#">Layanan</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-primary" href="#">Informasi Publik</a>
-                </li>
-            </ul>
-              <form class="form-inline my-2 my-lg-0 rounded-pill">
-            <input class="form-control mr-sm-2 rounded-pill " type="search" placeholder="Search" aria-label="Search">
-         </form>
-        </div>
-    </nav>
-    
-    <nav class="bg-primary">
-        <div class="marquee">
-            <p class="mx-auto text-center">Selamat Datang di Layanan Lembaga Pendidikan Tinggi (LLDIKTI) Wilayah II - Bumi Sriwijaya, Sang Bumi Ruwa Jurai, Serumpun Sebalai, Sekundang Setungguan Seio Sekato</p>
-        </div>
-    </nav>
-    
-    <script>
-        window.addEventListener('scroll', scrollFunction);
-    
-        function scrollFunction() {
-            const navbar = document.querySelector(".navbar");
-            if (window.scrollY > 80) {
-                navbar.classList.add("scrolled");
-            } else {
-                navbar.classList.remove("scrolled");
-            }
+    <a class="navbar-brand" href="#">
+        <img class="image-logo-navbar" src="{{ asset('img/logoLLDikti2.png') }}" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+                <a class="nav-link text-primary" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-primary" href="#">Berita</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-primary" href="#">Info</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-primary" href="#">Layanan</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-primary" href="#">Informasi Publik</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 rounded-pill">
+            <input class="form-control mr-sm-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+        </form>
+    </div>
+</nav>
+
+<nav class="bg-primary">
+    <div class="marquee">
+        <p class="mx-auto text-center">Selamat Datang di Layanan Lembaga Pendidikan Tinggi (LLDIKTI) Wilayah II - Bumi Sriwijaya, Sang Bumi Ruwa Jurai, Serumpun Sebalai, Sekundang Setungguan Seio Sekato</p>
+    </div>
+</nav>
+
+<script>
+    window.addEventListener('scroll', scrollFunction);
+
+    function scrollFunction() {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 80) {
+            navbar.classList.add("scrolled");
+        } else {
+            navbar.classList.remove("scrolled");
         }
-    </script>
-    
-    
+    }
+</script>

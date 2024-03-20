@@ -140,7 +140,7 @@
             align-items: center;
             justify-content: left;
             position: relative;
-            margin-left:20px;
+            /* margin-left:20px; */
           }
 
 
@@ -232,7 +232,7 @@
             line-height: 24px;
             font-weight: 500;
             position: relative;
-            margin-left:20px;
+            /* margin-left:20px; */
           }
 
           .frame-36944 {
@@ -342,43 +342,43 @@
         </div>
     </div> --}}
 
-    <select class="btn btn-outline-secondary me-2">
-      <option selected>Kategori</option>
-      <option value="1">Teknik</option>
-      <option value="2">Pendidikan</option>
-      <option value="3">Ekonomi</option>
-    </select>
+  <select class="btn btn-outline-secondary ms-3 me-2 mt-2">
+    <option selected>Kategori</option>
+    <option value="1">Teknik</option>
+    <option value="2">Pendidikan</option>
+    <option value="3">Ekonomi</option>
+  </select>
 
-    <select class="btn btn-outline-secondary me-2">
-      <option selected>Minggu</option>
-      <option value="1">Pertama</option>
-      <option value="2">Kedua</option>
-      <option value="3">Ketiga</option>
-      <option value="4">Keempat</option>
-    </select>
+  <select class="btn btn-outline-secondary me-2 mt-2">
+    <option selected>Minggu</option>
+    <option value="1">Pertama</option>
+    <option value="2">Kedua</option>
+    <option value="3">Ketiga</option>
+    <option value="4">Keempat</option>
+  </select>
 
-    <select class="btn btn-outline-secondary me-2">
-      <option selected>Bulan</option>
-      <option value="1">Januari</option>
-      <option value="2">Februari</option>
-      <option value="3">Maret</option>
-      <option value="4">April</option>
-      <option value="5">Mei</option>
-      <option value="6">Juni</option>
-      <option value="7">Juli</option>
-      <option value="8">Agustus</option>
-      <option value="9">September</option>
-      <option value="10">Oktober</option>
-      <option value="11">November</option>
-      <option value="12">Desember</option>
-    </select>
+  <select class="btn btn-outline-secondary me-2 mt-2">
+    <option selected>Bulan</option>
+    <option value="1">Januari</option>
+    <option value="2">Februari</option>
+    <option value="3">Maret</option>
+    <option value="4">April</option>
+    <option value="5">Mei</option>
+    <option value="6">Juni</option>
+    <option value="7">Juli</option>
+    <option value="8">Agustus</option>
+    <option value="9">September</option>
+    <option value="10">Oktober</option>
+    <option value="11">November</option>
+    <option value="12">Desember</option>
+  </select>
 
-    <select class="btn btn-outline-secondary me-2">
-      <option selected>Tahun</option>
-      <option value="1">2024</option>
-      <option value="2">2023</option>
-      <option value="3">2022</option>
-    </select>
+  <select class="btn btn-outline-secondary me-2 mt-2">
+    <option selected>Tahun</option>
+    <option value="1">2024</option>
+    <option value="2">2023</option>
+    <option value="3">2022</option>
+  </select>
 
     {{-- <div class="btn-group me-2">
       <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -434,19 +434,93 @@
       </ul>
     </div> --}}
 
-    <button type="button" class="btn btn-primary"><i class="fa-solid fa-filter me-2"></i>Filter</button>
+  <button type="button" class="btn btn-primary mt-2"><i class="fa-solid fa-filter me-2"></i>Filter</button>
 
-    <div class="frame-81">
-      <div class="pertama">
+  <div class="row mt-2">
+    <div class="col-lg-8 d-flex flex-row">
+      <div class="col-lg-4">
+        <div class="pertama">
           Pelepasan Mahasiswa KKN Tematik Bidadari
-          <br />
           di Lingkungan LLDIKTI
+        </div>
+        <div class="frame-81">
+          <div class="mbkm">MBKM</div>
+          <div class="div">|</div>
+          <div class="_1-jam-yang-lalu">1 Jam yang lalu</div>
+        </div>
+        <div class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita">
+          Dalam berbagai kondisi cuaca, AC mobil menjadi salah satu komponen
+          penting yang menjamin kenyamanan selama perjalanan. Namun, tidak
+          jarang kita mengalami masalah dengan AC mobil kita.......
+        </div>
       </div>
-      <div class="pertama" style="margin-left:50px">
+  
+      <div class="col-lg-4">
+        <div class="pertama">
           Pelepasan Mahasiswa KKN Tematik Bidadari
-          <br />
           di Lingkungan LLDIKTI
+        </div>
+        <div class="frame-81">
+          <div class="mbkm">MBKM</div>
+          <div class="div">|</div>
+          <div class="_1-jam-yang-lalu">1 Jam yang lalu</div>
+        </div>
+        <div class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita">
+          Dalam berbagai kondisi cuaca, AC mobil menjadi salah satu komponen
+          penting yang menjamin kenyamanan selama perjalanan. Namun, tidak
+          jarang kita mengalami masalah dengan AC mobil kita.......
+        </div>
       </div>
+    </div>
+    
+    <div class="col-xl-8 d-flex flex-row">
+      <div class="col-lg-4">
+        <div class="pertama">
+          Pelepasan Mahasiswa KKN Tematik Bidadari
+          di Lingkungan LLDIKTI
+        </div>
+        <div class="frame-81">
+          <div class="mbkm">MBKM</div>
+          <div class="div">|</div>
+          <div class="_1-jam-yang-lalu">1 Jam yang lalu</div>
+        </div>
+        <div class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita">
+          Dalam berbagai kondisi cuaca, AC mobil menjadi salah satu komponen
+          penting yang menjamin kenyamanan selama perjalanan. Namun, tidak
+          jarang kita mengalami masalah dengan AC mobil kita.......
+        </div>
+      </div>
+  
+      <div class="col-lg-4">
+        <div class="pertama">
+          Pelepasan Mahasiswa KKN Tematik Bidadari
+          di Lingkungan LLDIKTI
+        </div>
+        <div class="frame-81">
+          <div class="mbkm">MBKM</div>
+          <div class="div">|</div>
+          <div class="_1-jam-yang-lalu">1 Jam yang lalu</div>
+        </div>
+        <div class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita">
+          Dalam berbagai kondisi cuaca, AC mobil menjadi salah satu komponen
+          penting yang menjamin kenyamanan selama perjalanan. Namun, tidak
+          jarang kita mengalami masalah dengan AC mobil kita.......
+        </div>
+      </div>
+    </div>
+
+    {{-- <button type="button" class="btn btn-primary mt-4 ms-5">Lebih Banyak</button> --}}
+
+  </div>
+
+  {{-- <div class="frame-81">
+    <div class="pertama">
+    </div>
+    <div class="pertama" style="margin-left:50px">
+        Pelepasan Mahasiswa KKN Tematik Bidadari
+        <br />
+        di Lingkungan LLDIKTI
+    </div>
   </div>
 
   <div class="frame-80">
@@ -462,8 +536,6 @@
           </div>
       </div>
   </div>
-
-
 
   <div class="frame-811">
       <div
@@ -484,9 +556,6 @@
           jarang kita mengalami masalah dengan AC mobil kita.......
       </div>
   </div>
-
-
-
 
   <div class="frame-81">
       <div class="pertama">
@@ -514,6 +583,7 @@
           </div>
       </div>
   </div>
+
   <div class="frame-811">
   <div
       class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita">
@@ -522,9 +592,9 @@
       penting yang menjamin kenyamanan selama perjalanan. Namun, tidak
       <br />
       jarang kita mengalami masalah dengan AC mobil kita.......
-  </div>
+  </div> --}}
 
-  <div class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita"
+  {{-- <div class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita"
           style="margin-left: 40px">
           Dalam berbagai kondisi cuaca, AC mobil menjadi salah satu komponen
           <br />
@@ -532,7 +602,13 @@
           <br />
           jarang kita mengalami masalah dengan AC mobil kita.......
       </div>
-</div>
+  </div> --}}
+
+  <div class="row">
+    <div class="col-lg-5 justify-content-center text-center">
+      <button type="button" class="btn btn-primary mt-4">Lebih Banyak</button>
+    </div>
+  </div>
 
       <script>
         function aqua(){
