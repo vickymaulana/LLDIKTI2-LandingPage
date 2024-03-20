@@ -1,5 +1,29 @@
 <style>
 
+    /* Animasi untuk teks "FAQs" */
+    @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+   /* Animasi untuk teks "Pertanyaan Yang Sering Ditanyakan" */
+   @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
    /* Animasi untuk pertanyaan */
    @keyframes fadeInDown {
     from {
@@ -10,6 +34,16 @@
       opacity: 1;
       transform: translateY(0);
     }
+  }
+
+  .heading {
+    /* Terapkan animasi untuk teks "FAQs" */
+    animation: fadeInLeft 0.5s ease forwards;
+  }
+
+  .text {
+    /* Terapkan animasi untuk teks "Pertanyaan Yang Sering Ditanyakan" */
+    animation: fadeInUp 0.5s ease forwards;
   }
 
   /* Animasi untuk deskripsi */
