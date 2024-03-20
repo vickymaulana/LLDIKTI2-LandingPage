@@ -331,7 +331,45 @@
         </div>
     </div> --}}
 
-    <div class="btn-group me-2">
+    <select class="btn btn-outline-secondary me-2">
+      <option selected>Kategori</option>
+      <option value="1">Teknik</option>
+      <option value="2">Pendidikan</option>
+      <option value="3">Ekonomi</option>
+    </select>
+
+    <select class="btn btn-outline-secondary me-2">
+      <option selected>Minggu</option>
+      <option value="1">Pertama</option>
+      <option value="2">Kedua</option>
+      <option value="3">Ketiga</option>
+      <option value="4">Keempat</option>
+    </select>
+
+    <select class="btn btn-outline-secondary me-2">
+      <option selected>Bulan</option>
+      <option value="1">Januari</option>
+      <option value="2">Februari</option>
+      <option value="3">Maret</option>
+      <option value="4">April</option>
+      <option value="5">Mei</option>
+      <option value="6">Juni</option>
+      <option value="7">Juli</option>
+      <option value="8">Agustus</option>
+      <option value="9">September</option>
+      <option value="10">Oktober</option>
+      <option value="11">November</option>
+      <option value="12">Desember</option>
+    </select>
+
+    <select class="btn btn-outline-secondary me-2">
+      <option selected>Tahun</option>
+      <option value="1">2024</option>
+      <option value="2">2023</option>
+      <option value="3">2022</option>
+    </select>
+
+    {{-- <div class="btn-group me-2">
       <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
         Kategori
       </button>
@@ -347,7 +385,7 @@
         Minggu
       </button>
       <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">Pertama</a></li>
+        <li><a class="dropdown-item">Pertama</a></li>
         <li><a class="dropdown-item" href="#">Kedua</a></li>
         <li><a class="dropdown-item" href="#">Ketiga</a></li>
         <li><a class="dropdown-item" href="#">Keempat</a></li>
@@ -383,7 +421,7 @@
         <li><a class="dropdown-item" href="#">2023</a></li>
         <li><a class="dropdown-item" href="#">2022</a></li>
       </ul>
-    </div>
+    </div> --}}
 
     <button type="button" class="btn btn-primary"><i class="fa-solid fa-filter me-2"></i>Filter</button>
 
