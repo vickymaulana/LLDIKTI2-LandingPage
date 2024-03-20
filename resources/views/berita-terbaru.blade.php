@@ -186,6 +186,17 @@
             flex-shrink: 0;
             position: relative;
           }
+
+          .frame-811 {
+            display: flex;
+            flex-direction: row;
+            gap: 13px;
+            align-items: center;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            position: relative;
+        }
+
           .mbkm {
             color: var(--color-5, #999999);
             text-align: left;
@@ -425,117 +436,104 @@
 
     <button type="button" class="btn btn-primary"><i class="fa-solid fa-filter me-2"></i>Filter</button>
 
-    <div class="frame-81" >
-        <div class="pertama">
-          Pelepasan Mahasiswa KKN Tematik Bidadari
-          <br />
-          di Lingkungan LLDIKTI
-        </div>
-      </div>
-
-      <div class="frame-80">
-        <div class="frame-82">
-          <div class="frame-81">
-            <div class="mbkm">MBKM</div>
-            <div class="div">|</div>
-            <div class="_1-jam-yang-lalu">1 Jam yang lalu</div>
-          </div>
-        </div>
-      </div>
-      <div
-      class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita"
-    >
-      Dalam berbagai kondisi cuaca, AC mobil menjadi salah satu komponen
-      <br />
-      penting yang menjamin kenyamanan selama perjalanan. Namun, tidak
-      <br />
-      jarang kita mengalami masalah dengan AC mobil kita.......
-    </div>
-
     <div class="frame-81">
-        <div class="pertama">
+      <div class="pertama">
           Pelepasan Mahasiswa KKN Tematik Bidadari
           <br />
           di Lingkungan LLDIKTI
-        </div>
+      </div>
+      <div class="pertama" style="margin-left:50px">
+          Pelepasan Mahasiswa KKN Tematik Bidadari
+          <br />
+          di Lingkungan LLDIKTI
+      </div>
+  </div>
+
+  <div class="frame-80">
+      <div class="frame-82">
+          <div class="frame-81">
+              <div class="mbkm">MBKM</div>
+              <div class="div">|</div>
+              <div class="_1-jam-yang-lalu">1 Jam yang lalu</div>
+
+              <div class="mbkm" style="margin-left:300px">MBKM</div>
+              <div class="div">|</div>
+              <div class="_1-jam-yang-lalu">1 Jam yang lalu</div>
+          </div>
+      </div>
+  </div>
+
+
+
+  <div class="frame-811">
+      <div
+          class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita">
+          Dalam berbagai kondisi cuaca, AC mobil menjadi salah satu komponen
+          <br />
+          penting yang menjamin kenyamanan selama perjalanan. Namun, tidak
+          <br />
+          jarang kita mengalami masalah dengan AC mobil kita.......
       </div>
 
-      <div class="frame-80">
-        <div class="frame-82">
-          <div class="frame-81">
-            <div class="mbkm">MBKM</div>
-            <div class="div">|</div>
-            <div class="_1-jam-yang-lalu">1 Jam yang lalu</div>
-          </div>
-        </div>
+      <div class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita"
+          style="margin-left: 40px">
+          Dalam berbagai kondisi cuaca, AC mobil menjadi salah satu komponen
+          <br />
+          penting yang menjamin kenyamanan selama perjalanan. Namun, tidak
+          <br />
+          jarang kita mengalami masalah dengan AC mobil kita.......
       </div>
-      <div
-      class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita"
-    >
+  </div>
+
+
+
+
+  <div class="frame-81">
+      <div class="pertama">
+          Pelepasan Mahasiswa KKN Tematik Bidadari
+          <br />
+          di Lingkungan LLDIKTI
+      </div>
+      <div class="pertama" style="margin-left:50px">
+        Pelepasan Mahasiswa KKN Tematik Bidadari
+        <br />
+        di Lingkungan LLDIKTI
+    </div>
+  </div>
+
+  <div class="frame-80">
+      <div class="frame-82">
+          <div class="frame-81">
+              <div class="mbkm">MBKM</div>
+              <div class="div">|</div>
+              <div class="_1-jam-yang-lalu">1 Jam yang lalu</div>
+
+              <div class="mbkm" style="margin-left:300px">MBKM</div>
+              <div class="div">|</div>
+              <div class="_1-jam-yang-lalu">1 Jam yang lalu</div>
+          </div>
+      </div>
+  </div>
+  <div class="frame-811">
+  <div
+      class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita">
       Dalam berbagai kondisi cuaca, AC mobil menjadi salah satu komponen
       <br />
       penting yang menjamin kenyamanan selama perjalanan. Namun, tidak
       <br />
       jarang kita mengalami masalah dengan AC mobil kita.......
-    </div>
+  </div>
 
-    <div class="frame-81">
-        <div class="pertama">
-          Pelepasan Mahasiswa KKN Tematik Bidadari
+  <div class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita"
+          style="margin-left: 40px">
+          Dalam berbagai kondisi cuaca, AC mobil menjadi salah satu komponen
           <br />
-          di Lingkungan LLDIKTI
-        </div>
-      </div>
-
-      <div class="frame-80">
-        <div class="frame-82">
-          <div class="frame-81">
-            <div class="mbkm">MBKM</div>
-            <div class="div">|</div>
-            <div class="_1-jam-yang-lalu">1 Jam yang lalu</div>
-          </div>
-        </div>
-      </div>
-      <div
-      class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita"
-    >
-      Dalam berbagai kondisi cuaca, AC mobil menjadi salah satu komponen
-      <br />
-      penting yang menjamin kenyamanan selama perjalanan. Namun, tidak
-      <br />
-      jarang kita mengalami masalah dengan AC mobil kita.......
-    </div>
-
-    <div class="frame-81">
-        <div class="pertama">
-          Pelepasan Mahasiswa KKN Tematik Bidadari
+          penting yang menjamin kenyamanan selama perjalanan. Namun, tidak
           <br />
-          di Lingkungan LLDIKTI
-        </div>
+          jarang kita mengalami masalah dengan AC mobil kita.......
       </div>
+</div>
 
-      <div class="frame-80">
-        <div class="frame-82">
-          <div class="frame-81">
-            <div class="mbkm">MBKM</div>
-            <div class="div">|</div>
-            <div class="_1-jam-yang-lalu">1 Jam yang lalu</div>
-          </div>
-        </div>
-      </div>
-      <div
-      class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita"
-    >
-      Dalam berbagai kondisi cuaca, AC mobil menjadi salah satu komponen
-      <br />
-      penting yang menjamin kenyamanan selama perjalanan. Namun, tidak
-      <br />
-      jarang kita mengalami masalah dengan AC mobil kita.......
-    </div>
-
-    <div class="frame-36944">
-        <div class="lebih-banyak">Lebih Banyak</div>
-      </div>
       <script>
         function aqua(){
             document.getElementById('text').style.color="aqua";
