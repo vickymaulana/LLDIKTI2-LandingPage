@@ -508,6 +508,9 @@
         </div>
       </div>
     </div>
+
+    {{-- <button type="button" class="btn btn-primary mt-4 ms-5">Lebih Banyak</button> --}}
+
   </div>
 
   {{-- <div class="frame-81">
@@ -601,7 +604,11 @@
       </div>
   </div> --}}
 
-  {{-- <button type="button" class="btn btn-primary mt-4 ms-5">Lebih Banyak</button> --}}
+  <div class="row">
+    <div class="col-lg-5 justify-content-center text-center">
+      <button type="button" class="btn btn-primary mt-4">Lebih Banyak</button>
+    </div>
+  </div>
 
       <script>
         function aqua(){
