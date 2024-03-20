@@ -51,7 +51,7 @@
 <body>
 
 <div class="container-faq">
-    <div class="d-flex flex-row-reverse">
+    <div>
         <div data-aos="fade-right">
             <iframe 
             class="image-36" 
@@ -65,7 +65,7 @@
         </div>
     </div>
 
-    <div class="d-flex flex-row-reverse">
+    <div>
         <h2>FAQ</h2>
         <p>Pertanyaan yang Sering Ditanyakan.</p>
         <button class="accordion">Section 1</button>
