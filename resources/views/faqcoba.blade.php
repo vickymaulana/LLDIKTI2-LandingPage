@@ -5,7 +5,7 @@
 <style>
 .accordion {
   background-color: #ffff;
-  color: #444;
+  color: #174967;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -42,9 +42,17 @@
 }
 
 .container-faq {
-      display: flex;
-      flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  top:200px;
+     
 }
+
+.text-faq{
+  text-align: center;
+  color: #174967;
+}
+
 
 </style>
 </head>
@@ -65,30 +73,30 @@
         </div>
     </div>
 
-    <div>
+    <div class="text-faq">
         <h2>FAQ</h2>
         <p>Pertanyaan yang Sering Ditanyakan.</p>
-        <button class="accordion">Section 1</button>
+        <button class="accordion">Apa itu LLDIKTI Wilayah II</button>
         <div class="panel">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
  
-        <button class="accordion">Section 2</button>
+        <button class="accordion">Apa itu Figma</button>
         <div class="panel">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
-        <button class="accordion">Section 3</button>
+        <button class="accordion">Pinjam dulu seratus</button>
         <div class="panel">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
-        <button class="accordion">Section 3</button>
+        <button class="accordion">Engga tau apaan</button>
         <div class="panel">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
-        <button class="accordion">Section 3</button>
+        <button class="accordion">Dimana lokasi LLDIKTI</button>
         <div class="panel">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
