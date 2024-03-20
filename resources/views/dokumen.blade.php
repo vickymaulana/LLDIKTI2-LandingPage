@@ -17,7 +17,7 @@
     flex: 0 0 auto; /* Membuat lebar kotak tetap */
     width: 250px;
     padding: 25px;
-    border: 2px solid #174967;
+    border: 1px solid #03419f;
     border-radius: 25px;
     text-align: center;
   }
@@ -46,7 +46,7 @@
 
 <div class="title_page" >
 <div data-aos="zoom-in">
-  DOKUMEN Arsip LLDikti 2 </div>
+  Dokumen Arsip LLDIKTI </div>
 </div>
 
 <body>
