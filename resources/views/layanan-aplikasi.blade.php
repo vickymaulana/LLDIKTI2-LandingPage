@@ -30,45 +30,237 @@
     text-align: center;
     margin: 0 10px;
   }
+
+
+.our-portfolio {
+  padding-top: 120px;
+  margin-top: 0px;
+}
+
+/* .our-portfolio .section-heading h2 {
+  text-align: left;
+  margin: 0px 0px 0px 0px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+} */
+
+.our-portfolio .item {
+  position: relative;
+  width: 300px;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 250px;
+}
+
+.our-portfolio .item:hover .hidden-content {
+  top: -100px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.our-portfolio .item:hover .showed-content {
+  top: 90px;
+}
+
+.our-portfolio .hidden-content {
+  background: #03419E;
+  background: linear-gradient(105deg, #03419E; 0%, rgba(255,44,109,1) 100%);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  opacity: 0;
+  top: 0;
+  visibility: hidden;
+  position: absolute;
+  z-index: 2;
+  transition: all 0.5s;
+}
+
+.our-portfolio .hidden-content:after {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background: #03419E;
+  content: '';
+  left: 50%;
+  bottom: -8px;
+  margin-left: 5px;
+  transform: rotate(45deg);
+  background: linear-gradient(105deg, #03419E; 0%, rgba(255,51,78,1) 100%);
+  z-index: -1;
+}
+
+.our-portfolio .hidden-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.our-portfolio .hidden-content p {
+  color: #fff;
+}
+
+.our-portfolio .showed-content {
+  top: 0px;
+  position: relative;
+  z-index: 3;
+  background-color: #fff;
+  text-align: center;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  transition: all 0.5s;
+}
+
+.our-portfolio .showed-content img {
+  max-width: 100px;
+}
+
+@-webkit-keyframes bounceInUp {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+            transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+            transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+            transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+            transform: translate3d(0, -5px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bounceInUp {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+            transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+            transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+            transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+            transform: translate3d(0, -5px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+.bounceInUp {
+  -webkit-animation-name: bounceInUp;
+          animation-name: bounceInUp;
+}
+
 </style>
 
 
 
-<div class="container-layananaplikasi" style="display: flex; justify-content: center; align-items: center; height: 10vh;">
+<div class="container" style="display: flex; justify-content: center; align-items: center; height: 10vh;">
 <div class="title page" style="text-align: center;">
 <div data-aos="zoom-in">
-  <h2 style="margin: 0 auto;">Layanan Aplikasi</h2></div>
+  <h2>Layanan Aplikasi</h2></div>
 </div>
 </div>
-<div class="container-layananaplikasi" style="display: flex; justify-content: center; align-items: center; padding-top:20px;">
-<a href="https://sikito.lldikti2.id/" target="_blank">
-<div class="card">
-<div data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom">
-    <img src="./img/176184.png" class="card-img-top" alt="..."></div>
-    <div class="card-body"></div>
-  </div>
-</a>
-<a href="https://missmonik.lldikti2.id/" target="_blank">
-  <div class="card">
-  <div data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom">
-    <img src="./img/176185.png" class="card-img-top" alt="..."></div>
-    <div class="card-body"></div>
-  </div>
-</a>
-<a href="https://dites.lldikti2.id/" target="_blank">
-  <div class="card">
-  <div data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom">
-    <img src="./img/176186.png" class="card-img-top" alt="..."></div>
-    <div class="card-body"></div>
-  </div>
-</a>
-  <div class="card">
-  <div data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom">
-    <img src="./img/176187.png" class="card-img-top" alt="..."></div>
-    <div class="card-body"></div>
+
+
+<div id="portfolio" class="our-portfolio section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6">
+        <a href="#">
+          <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+            <div class="hidden-content">
+              <h4>SI-KITO</h4>
+              <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+            </div>
+            <div class="showed-content">
+              <img src="./img/176184.png" alt="">
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <a href="#">
+          <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="hidden-content">
+              <h4>MISS MONIK</h4>
+              <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+            </div>
+            <div class="showed-content">
+              <img src="./img/176185.png"  alt="">
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <a href="#">
+          <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+            <div class="hidden-content">
+              <h4>Di-TES</h4>
+              <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+            </div>
+            <div class="showed-content">
+              <img src="./img/176186.png"alt="">
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <a href="#">
+          <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+            <div class="hidden-content">
+              <h4>AMPERA</h4>
+              <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+            </div>
+            <div class="showed-content">
+              <img src="./img/176187.png" alt="">
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
   </div>
 </div>
+
+</div>
+

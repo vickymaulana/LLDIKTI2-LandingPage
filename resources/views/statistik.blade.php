@@ -22,8 +22,9 @@
 }
 </style>
 
+<div data-aos="zoom-in">
 <div class="data-statistik-perguruan-tinggi">
-  Data Statistik Perguruan Tinggi
+  Data Statistik Perguruan Tinggi </div>
 </div>
 
 <style>
@@ -45,7 +46,7 @@
   width: 175px;
   height: 173px;
   position: absolute;
-  left: 84px;
+  left: -550px;
   top: 49.5px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   object-fit: cover;
@@ -54,7 +55,7 @@
   width: 194px;
   height: 194px;
   position: absolute;
-  left: 369px;
+  left: -270px;
   top: 39px;
   object-fit: cover;
   margin-left: 30px;
@@ -63,7 +64,7 @@
   width: 157px;
   height: 157px;
   position: absolute;
-  left: 673px;
+  left: 50px;
   top: 57.5px;
   object-fit: cover;
   margin-left: 30px;
@@ -72,7 +73,7 @@
   width: 155px;
   height: 155px;
   position: absolute;
-  left: 940px;
+  left: 300px;
   top: 58.5px;
   object-fit: cover;
   margin-left: 25px;
@@ -225,10 +226,18 @@ margin-left: 2px;
 
 
 <div class="frame-36932 center container">
-  <img class="rectangle-176" src="/img/school.png" />
-  <img class="image-22" src="/img/student.png" />
-  <img class="image-23" src="/img/prodi.png" />
-  <img class="image-24" src="/img/dosen.png" />
+<div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+  <img class="rectangle-176" src="/img/school.png" /></div>
+  <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+  <img class="image-22" src="/img/student.png" /></div>
+  <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+  <img class="image-23" src="/img/prodi.png" /></div>
+  <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+  <img class="image-24" src="/img/dosen.png" /></div>
   <div class="jumlah-perguruan-tinggi">Jumlah Perguruan Tinggi</div>
   <svg
     class="rectangle-247"
