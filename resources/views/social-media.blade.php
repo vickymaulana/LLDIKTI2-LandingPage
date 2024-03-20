@@ -15,7 +15,7 @@
   height: 561px;
   position: relative;
   overflow: hidden;
-  background-color: aqua;
+  /* background-color: aqua; */
 
   /* Menyesuaikan lebar dengan gambar */
   width: 487px; /* (236px * 2) + 20px (jarak antar gambar) */
@@ -120,8 +120,11 @@
 </head>
 <body>
     <div class="social-media">
-        <img class="image-25" src="image-250.png" />
-        <img class="image-26" src="image-260.png" />
+        {{-- <img class="image-25" src="image-250.png" /> --}}
+        <a href="https://www.instagram.com/p/C4o2fiUPY5P/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="> <img class="image-25" src="{{ asset('img/1.jpg') }}" alt="Deskripsi Gambar"> </a>
+        {{-- <img class="image-26" src="image-260.png" /> --}}
+        <a href="https://www.instagram.com/p/C4iKMnfP7pd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="> <img class="image-26" src="{{ asset('img/2.jpg') }}" alt="Deskripsi Gambar"> </a>
+        <a href="https://www.instagram.com/lldiktii2?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
         <svg
           class="vector"
           width="26"
@@ -136,6 +139,8 @@
           />
         </svg>
         <div class="lldiktii-2">@lldiktii2</div>
+        </a>
+        <a href="https://www.facebook.com/lldikti2">
         <svg
           class="vector2"
           width="31"
@@ -150,8 +155,11 @@
           />
         </svg>
         <div class="lldikti-wilayah-2">LLDIKTI Wilayah 2</div>
-        <img class="image-27" src="image-270.png" />
-        <img class="image-28" src="image-280.png" />
+        <div class="lldikti-wilayah-2">LLDIKTI Wilayah 2</div> </a>
+        {{-- <img class="image-27" src="image-270.png" /> --}}
+        <a href="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D953744876238712%26set%3Da.628566888756514%26type%3D3&show_text=true&width=500" width="500" height="582" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share>"> <img class="image-27" src="{{ asset('img/11.jpg') }}" alt="Deskripsi Gambar"> </a>
+        {{-- <img class="image-28" src="image-280.png" /> --}}
+        <a href="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D953742836238916%26set%3Da.628566888756514%26type%3D3&show_text=true&width=500" width="500" height="518" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"> <img class="image-28" src="{{ asset('img/22.jpg') }}" alt=""> </a>
       </div>
       
 </body>
