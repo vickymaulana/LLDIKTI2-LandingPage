@@ -207,6 +207,9 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-3 col-sm-6">
+      <div data-aos="fade-down"
+      data-aos-duration="500"
+      data-aos-delay="200">
         <a href="#">
           <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
             <div class="hidden-content">
@@ -217,9 +220,12 @@
               <img src="./img/176184.png" alt="">
             </div>
           </div>
-        </a>
+        </a></div>
       </div>
       <div class="col-lg-3 col-sm-6">
+      <div data-aos="fade-down"
+      data-aos-duration="500"
+      data-aos-delay="200">
         <a href="#">
           <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
             <div class="hidden-content">
@@ -230,9 +236,12 @@
               <img src="./img/176185.png"  alt="">
             </div>
           </div>
-        </a>
+        </a></div>
       </div>
       <div class="col-lg-3 col-sm-6">
+      <div data-aos="fade-down"
+      data-aos-duration="500"
+      data-aos-delay="200">
         <a href="#">
           <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
             <div class="hidden-content">
@@ -243,9 +252,12 @@
               <img src="./img/176186.png"alt="">
             </div>
           </div>
-        </a>
+        </a></div>
       </div>
       <div class="col-lg-3 col-sm-6">
+      <div data-aos="fade-down"
+      data-aos-duration="500"
+      data-aos-delay="200">
         <a href="#">
           <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
             <div class="hidden-content">
@@ -256,7 +268,7 @@
               <img src="./img/176187.png" alt="">
             </div>
           </div>
-        </a>
+        </a></div>
       </div>
     </div>
   </div>

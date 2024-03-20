@@ -226,17 +226,25 @@ margin-left: 2px;
 
 
 <div class="frame-36932 center container">
-<div data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom">
+<div data-aos="fade-down"
+     data-aos-anchor-placement="top-bottom"
+     data-aos-duration="500"
+     data-aos-delay="200">
   <img class="rectangle-176" src="/img/school.png" /></div>
-  <div data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom">
+  <div data-aos="fade-down"
+     data-aos-anchor-placement="top-bottom"
+     data-aos-duration="500"
+     data-aos-delay="200">
   <img class="image-22" src="/img/student.png" /></div>
-  <div data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom">
+  <div data-aos="fade-down"
+     data-aos-anchor-placement="top-bottom"
+     data-aos-duration="500"
+     data-aos-delay="200">
   <img class="image-23" src="/img/prodi.png" /></div>
-  <div data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom">
+  <div data-aos="fade-down"
+     data-aos-anchor-placement="top-bottom"
+     data-aos-duration="500"
+     data-aos-delay="200">
   <img class="image-24" src="/img/dosen.png" /></div>
   <div class="jumlah-perguruan-tinggi">Jumlah Perguruan Tinggi</div>
   <svg
