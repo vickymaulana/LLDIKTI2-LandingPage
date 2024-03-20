@@ -58,8 +58,8 @@
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button></div>
+    <button type="button" class="btn btn-success"><i class="fa-solid fa-eye"></i>Lihat</button>
+    <button type="button" class="btn btn-outline-success"><i class="fa-solid fa-download"></i>Unduh</button></div>
   </div></div>
   <div data-aos="flip-left">
   <div class="box">
@@ -67,8 +67,8 @@
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button></div>
+    <button type="button" class="btn btn-success"><i class="fa-solid fa-eye"></i>Lihat</button>
+    <button type="button" class="btn btn-outline-success"><i class="fa-solid fa-download"></i>Unduh</button></div>
   </div></div>
   <div data-aos="flip-left">
   <div class="box">
@@ -76,8 +76,8 @@
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button></div>
+    <button type="button" class="btn btn-success"><i class="fa-solid fa-eye"></i>Lihat</button>
+    <button type="button" class="btn btn-outline-success"><i class="fa-solid fa-download"></i>Unduh</button></div>
   </div></div>
   <div data-aos="flip-left">
   <div class="box">
@@ -85,8 +85,8 @@
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button></div>
+    <button type="button" class="btn btn-success"><i class="fa-solid fa-eye"></i>Lihat</button>
+    <button type="button" class="btn btn-outline-success"><i class="fa-solid fa-download"></i>Unduh</button></div>
   </div></div>
   <div data-aos="flip-left">
   <div class="box">
@@ -94,8 +94,8 @@
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button></div>
+    <button type="button" class="btn btn-success"><i class="fa-solid fa-eye"></i>Lihat</button>
+    <button type="button" class="btn btn-outline-success"><i class="fa-solid fa-download"></i>Unduh</button></div>
   </div></div>
   <div data-aos="flip-left">
   <div class="box">
@@ -103,8 +103,8 @@
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button></div>
+    <button type="button" class="btn btn-success"><i class="fa-solid fa-eye"></i>Lihat</button>
+    <button type="button" class="btn btn-outline-success"><i class="fa-solid fa-download"></i>Unduh</button></div>
   </div></div>
   <div data-aos="flip-left">
   <div class="box">
@@ -112,8 +112,8 @@
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button></div>
+    <button type="button" class="btn btn-success"><i class="fa-solid fa-eye"></i>Lihat</button>
+    <button type="button" class="btn btn-outline-success"><i class="fa-solid fa-download"></i>Unduh</button></div>
   </div></div>
   <div data-aos="flip-left">
   <div class="box">
@@ -121,8 +121,8 @@
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button></div>
+    <button type="button" class="btn btn-success"><i class="fa-solid fa-eye"></i>Lihat</button>
+    <button type="button" class="btn btn-outline-success"><i class="fa-solid fa-download"></i>Unduh</button></div>
   </div></div>
   <div data-aos="flip-left">
   <div class="box">
@@ -130,8 +130,8 @@
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button></div>
+    <button type="button" class="btn btn-success"><i class="fa-solid fa-eye"></i>Lihat</button>
+    <button type="button" class="btn btn-outline-success"><i class="fa-solid fa-download"></i>Unduh</button></div>
   </div></div>
   <div data-aos="flip-left">
   <div class="box">
@@ -139,8 +139,8 @@
     <img src="https://via.placeholder.com/300" alt="Placeholder Image">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-outline-success">Success</button></div>
+    <button type="button" class="btn btn-success"><i class="fa-solid fa-eye"></i>Lihat</button>
+    <button type="button" class="btn btn-outline-success"><i class="fa-solid fa-download"></i>Unduh</button></div>
   </div></div>
   <!-- Tambahkan kotak-kotak lain di sini sesuai kebutuhan -->
 </div>

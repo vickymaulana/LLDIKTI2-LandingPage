@@ -34,13 +34,13 @@
 
 
 
-<div class="container" style="display: flex; justify-content: center; align-items: center; height: 10vh;">
+<div class="container-layananaplikasi" style="display: flex; justify-content: center; align-items: center; height: 10vh;">
 <div class="title page" style="text-align: center;">
 <div data-aos="zoom-in">
   <h2 style="margin: 0 auto;">Layanan Aplikasi</h2></div>
 </div>
 </div>
-<div class="container" style="display: flex; justify-content: center; align-items: center; padding-top:20px;">
+<div class="container-layananaplikasi" style="display: flex; justify-content: center; align-items: center; padding-top:20px;">
 <a href="https://sikito.lldikti2.id/" target="_blank">
 <div class="card">
 <div data-aos="fade-up"
