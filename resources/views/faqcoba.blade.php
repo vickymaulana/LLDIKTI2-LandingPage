@@ -44,7 +44,11 @@
 .container-faq {
   display: flex;
   flex-direction: row;
-  top:200px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  margin-bottom: 20px;
      
 }
 
@@ -63,8 +67,8 @@
         <div data-aos="fade-right">
             <iframe 
             class="image-36" 
-            width="700" 
-            height="400" 
+            width="690" 
+            height="390" 
             max-width="100%"
             src="https://www.youtube.com/embed/V7zAO9J06hE" 
             frameborder="0" 
@@ -73,7 +77,7 @@
         </div>
     </div>
 
-    <div class="text-faq">
+    <div style= "margin-left: 50px; margin-right: 25px;" class="text-faq">
         <h2>FAQ</h2>
         <p>Pertanyaan yang Sering Ditanyakan.</p>
         <button class="accordion">Apa itu LLDIKTI Wilayah II</button>
