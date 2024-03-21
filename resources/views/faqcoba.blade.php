@@ -29,9 +29,7 @@
   margin-left: 5px;
 }
 
-.active:after {
-  content: "\2212";
-}
+
 
 .panel {
   padding: 0 18px;
