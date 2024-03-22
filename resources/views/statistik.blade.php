@@ -34,25 +34,26 @@
   
 }
 .frame-36932 {
-  background: rgba(3, 65, 158, 0.01);
+  /* background: rgba(3, 65, 158, 0.01); */
+  background:  rgba(3, 65, 158, 0.03);
   border-radius: 50px;
-  height: 322px;
+  height: 360px;
+  width: 1600px; 
   position: relative;
   overflow: hidden;
   justify-content: center;
   justify-items: center;
 }
 .rectangle-176 {
-  width: 175px;
+  width: 165px;
   height: 173px;
   position: absolute;
-  left: -550px;
+  left: -530px;
   top: 49.5px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  object-fit: cover;
 }
+
 .image-22 {
-  width: 194px;
+  width: 174px;
   height: 194px;
   position: absolute;
   left: -270px;
@@ -70,23 +71,22 @@
   margin-left: 30px;
 }
 .image-24 {
-  width: 155px;
-  height: 155px;
+  width: 185px;
+  height: 175px;
   position: absolute;
-  left: 300px;
-  top: 58.5px;
+  left: 350px;
+  top: 60px;
   object-fit: cover;
   margin-left: 25px;
 }
 .jumlah-perguruan-tinggi {
   color: #174967;
-  text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 20px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 56px;
+  left: 20px;
   top: 256px;
   width: 230px;
   margin-top: 20px;
@@ -111,19 +111,16 @@
 }
 ._642-919 {
   color: #174967;
-  text-align: center;
   font-family: "Outfit-Bold", sans-serif;
   font-size: 40px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 419px;
+  left: 335px;
   top: 231px;
   width: 92px;
   height: 44px;
-margin-left: 2px;
-  
-  
+margin-left: 2px;  
 }
 .jumlah-mahasiswa {
   color: #174967;
@@ -133,7 +130,7 @@ margin-left: 2px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 379px;
+  left: 290px;
   top: 258px;
   margin-top: 20px;
   margin-left: 30px;
@@ -155,11 +152,11 @@ margin-left: 2px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 715px;
+  left: 645px;
   top: 231px;
   width: 73px;
   height: 44px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .jumlah-program-studi {
   color: #174967;
@@ -169,10 +166,10 @@ margin-left: 2px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 649px;
+  left: 590px;
   top: 258px;
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .rectangle-250 {
   border-radius: 0px;
@@ -191,11 +188,10 @@ margin-left: 2px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 981px;
+  left: 955px;
   top: 231px;
   width: 73px;
   height: 44px;
-  margin-left: 10px;
 }
 .jumlah-dosen-tetap {
   color: #174967;
@@ -205,7 +201,7 @@ margin-left: 2px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 925px;
+  left: 890px;
   top: 261px;
   margin-top: 20px;
   margin-left: 30px;
@@ -218,7 +214,7 @@ margin-left: 2px;
   line-height: 66px;
   font-weight: 700;
   position: absolute;
-  left: 135px;
+  left: 80px;
   top: 233px;
   width: 73px;
   height: 44px;
@@ -439,3 +435,4 @@ margin-left: 2px;
     <br />
   </div>
 </div>
+
