@@ -58,6 +58,10 @@
     margin-left: 0;
     margin-right: 0;
   }
+
+  .image36 {
+    width: 100%;
+  }
 }
 </style>
 
