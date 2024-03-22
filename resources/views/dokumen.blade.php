@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Scrollable Boxes with Buttons and Images</title>
 <style>
   .box-container {
     display: flex;
@@ -48,17 +42,39 @@
 .card-text {
   font-size: 12px;
 }
+.btn-success {
+  background-color: #03419f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 5px;
+  border-radius: 5px;
 
+}
+.btn-outline-success {
+  background-color: white;
+  color: #03419f;
+  border: 1px solid #03419f;
+  padding: 10px 20px;
+  border-radius: 5px;
+
+}
+
+.btn-success:hover {
+  background-color: #174967;
+}
+
+.btn-outline-success:hover {
+  background-color: #03419f;
+  color: white;
+}
 </style>
-</head>
 
 
 <div class="title_page" >
 <div data-aos="zoom-in">
   Dokumen Arsip LLDIKTI </div>
 </div>
-
-<body>
   
 <div class="box-container">
 <div data-aos="flip-left">
@@ -153,6 +169,3 @@
   </div></div>
   <!-- Tambahkan kotak-kotak lain di sini sesuai kebutuhan -->
 </div>
-
-</body>
-</html>
