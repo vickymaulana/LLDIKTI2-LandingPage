@@ -26,12 +26,6 @@
     padding-right: 50px;
   }
 
-  .card {
-    text-align: center;
-    margin: 0 10px;
-  }
-
-
 .our-portfolio {
   padding-top: 120px;
   margin-top: 0px;
@@ -47,9 +41,10 @@
 
 .our-portfolio .item {
   position: relative;
-  width: 300px;
+  width: 350px;
   height: 50px;
   margin: auto;
+  padding-right: 100px;
   margin-bottom: 250px;
 }
 
@@ -66,7 +61,7 @@
 .our-portfolio .hidden-content {
   background: #03419E;
   background: linear-gradient(105deg, #03419E; 0%, rgba(255,44,109,1) 100%);
-  padding: 30px;
+  padding: 20px;
   border-radius: 20px;
   text-align: center;
   opacity: 0;
@@ -75,6 +70,8 @@
   position: absolute;
   z-index: 2;
   transition: all 0.5s;
+  width: 250px;
+  height: 150px;
 }
 
 .our-portfolio .hidden-content:after {
@@ -95,7 +92,7 @@
   font-size: 20px;
   font-weight: 700;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .our-portfolio .hidden-content p {
@@ -214,7 +211,7 @@
           <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
             <div class="hidden-content">
               <h4>SI-KITO</h4>
-              <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+              <p>Sistem Informasi Kepangkatan Jabatan Fungsional Online</p>
             </div>
             <div class="showed-content">
               <img src="./img/176184.png" alt="">
@@ -229,8 +226,8 @@
         <a href="#">
           <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
             <div class="hidden-content">
-              <h4>MISS MONIK</h4>
-              <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+              <h4>MISSMONIK</h4>
+              <p>Manajemen Sistem Arsip Dokumen Elektronik</p>
             </div>
             <div class="showed-content">
               <img src="./img/176185.png"  alt="">
@@ -245,8 +242,8 @@
         <a href="#">
           <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
             <div class="hidden-content">
-              <h4>Di-TES</h4>
-              <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+              <h4>DiTES</h4>
+              <p>Digital Tracking Equipment System</p>
             </div>
             <div class="showed-content">
               <img src="./img/176186.png"alt="">
@@ -262,7 +259,7 @@
           <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
             <div class="hidden-content">
               <h4>AMPERA</h4>
-              <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+              <p>Anjungan Mutu Perguruan Tinggi LLDIKTI II</p>
             </div>
             <div class="showed-content">
               <img src="./img/176187.png" alt="">
@@ -275,4 +272,5 @@
 </div>
 
 </div>
+
 

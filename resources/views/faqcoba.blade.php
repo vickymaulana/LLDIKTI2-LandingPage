@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .accordion {
   background-color: #ffff;
@@ -16,10 +12,8 @@
   transition: 0.4s;
 }
 
-
 .active, .accordion:hover {
   background-color: #ffff;
-  
 }
 
 .accordion:after {
@@ -36,7 +30,6 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  
 }
 
 .container-faq {
@@ -47,7 +40,6 @@
   margin-right: 20px;
   position: relative;
   margin-bottom: 20px;
-     
 }
 
 .text-faq{
@@ -55,10 +47,23 @@
   color: #174967;
 }
 
+/* Media queries for mobile interfaces */
+@media only screen and (max-width: 600px) {
+  .container-faq {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text-faq {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
+  .image36 {
+    width: 100%;
+  }
+}
 </style>
-</head>
-<body>
 
 <div class="container-faq">
     <div>
@@ -102,8 +107,6 @@
         <div class="panel">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
-
-
     </div>
 </div>
 
@@ -123,6 +126,3 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 </script>
-
-</body>
-</html>
