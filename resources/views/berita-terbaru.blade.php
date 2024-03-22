@@ -1,7 +1,3 @@
-<!doctype html>
-<html lang="en">
-
-<head>
     <style>
         .frame-36941,
         .frame-36941 * {
@@ -264,83 +260,6 @@
 
 
     </style>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-    <!-- Bootstrap CSS v5.2.1 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-</head>
-
-<body>
-
-    {{-- <div class="frame-36941">
-        <div class="kotak">
-            <div type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <div type="button" class="kategori">Kategori
-                    <span class="left-icon"></span>
-                    <span class="right-icon"></span>
-                </div>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Teknik</a></li>
-                    <li><a class="dropdown-item" href="#">Pendidikan</a></li>
-                    <li><a class="dropdown-item" href="#">Ekonomi </a></li>
-
-                </ul>
-            </div>
-        </div>
-
-        <div class="kotak2">
-            <div type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <div type="button" class="kategori">Minggu
-                    <span class="left-icon"></span>
-                    <span class="right-icon"></span>
-                </div>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Pertama</a></li>
-                    <li><a class="dropdown-item" href="#">Kedua</a></li>
-                    <li><a class="dropdown-item" href="#">Ketiga </a></li>
-
-                </ul>
-            </div>
-        </div>
-        <div class="kotak3">
-            <div type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <div type="button" class="kategori">Bulan
-                    <span class="left-icon"></span>
-                    <span class="right-icon"></span>
-                </div>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Januari</a></li>
-                    <li><a class="dropdown-item" href="#">Febuari</a></li>
-                    <li><a class="dropdown-item" href="#">Maret </a></li>
-
-                </ul>
-            </div>
-        </div>
-
-        <div class="kotak4">
-            <div type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <div type="button" class="kategori">Tahun
-                    <span class="left-icon"></span>
-                    <span class="right-icon"></span>
-                </div>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">2024</a></li>
-                    <li><a class="dropdown-item" href="#">2023</a></li>
-                    <li><a class="dropdown-item" href="#">2022</a></li>
-
-                </ul>
-            </div>
-        </div>
-
-        <div class="frame-369412">
-            <div type="button" onclick="aqua()" class="filter">Filter</div>
-
-        </div>
-    </div> --}}
 
   <select class="btn btn-outline-secondary ms-3 me-2 mt-2">
     <option selected>Kategori</option>
@@ -379,60 +298,6 @@
     <option value="2">2023</option>
     <option value="3">2022</option>
   </select>
-
-    {{-- <div class="btn-group me-2">
-      <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-        Kategori
-      </button>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">Teknik</a></li>
-        <li><a class="dropdown-item" href="#">Pendidikan</a></li>
-        <li><a class="dropdown-item" href="#">Ekonomi</a></li>
-      </ul>
-    </div>
-
-    <div class="btn-group me-2">
-      <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-        Minggu
-      </button>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item">Pertama</a></li>
-        <li><a class="dropdown-item" href="#">Kedua</a></li>
-        <li><a class="dropdown-item" href="#">Ketiga</a></li>
-        <li><a class="dropdown-item" href="#">Keempat</a></li>
-      </ul>
-    </div>
-
-    <div class="btn-group me-2">
-      <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-        Bulan
-      </button>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">Januari</a></li>
-        <li><a class="dropdown-item" href="#">Februari</a></li>
-        <li><a class="dropdown-item" href="#">Maret</a></li>
-        <li><a class="dropdown-item" href="#">April</a></li>
-        <li><a class="dropdown-item" href="#">Mei</a></li>
-        <li><a class="dropdown-item" href="#">Juni</a></li>
-        <li><a class="dropdown-item" href="#">Juli</a></li>
-        <li><a class="dropdown-item" href="#">Agustus</a></li>
-        <li><a class="dropdown-item" href="#">September</a></li>
-        <li><a class="dropdown-item" href="#">Oktober</a></li>
-        <li><a class="dropdown-item" href="#">November</a></li>
-        <li><a class="dropdown-item" href="#">Desember</a></li>
-      </ul>
-    </div>
-
-    <div class="btn-group me-2">
-      <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-        Tahun
-      </button>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">2024</a></li>
-        <li><a class="dropdown-item" href="#">2023</a></li>
-        <li><a class="dropdown-item" href="#">2022</a></li>
-      </ul>
-    </div> --}}
 
   <button type="button" class="btn btn-primary mt-2"><i class="fa-solid fa-filter me-2"></i>Filter</button>
 
@@ -509,100 +374,7 @@
       </div>
     </div>
 
-    {{-- <button type="button" class="btn btn-primary mt-4 ms-5">Lebih Banyak</button> --}}
-
   </div>
-
-  {{-- <div class="frame-81">
-    <div class="pertama">
-    </div>
-    <div class="pertama" style="margin-left:50px">
-        Pelepasan Mahasiswa KKN Tematik Bidadari
-        <br />
-        di Lingkungan LLDIKTI
-    </div>
-  </div>
-
-  <div class="frame-80">
-      <div class="frame-82">
-          <div class="frame-81">
-              <div class="mbkm">MBKM</div>
-              <div class="div">|</div>
-              <div class="_1-jam-yang-lalu">1 Jam yang lalu</div>
-
-              <div class="mbkm" style="margin-left:300px">MBKM</div>
-              <div class="div">|</div>
-              <div class="_1-jam-yang-lalu">1 Jam yang lalu</div>
-          </div>
-      </div>
-  </div>
-
-  <div class="frame-811">
-      <div
-          class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita">
-          Dalam berbagai kondisi cuaca, AC mobil menjadi salah satu komponen
-          <br />
-          penting yang menjamin kenyamanan selama perjalanan. Namun, tidak
-          <br />
-          jarang kita mengalami masalah dengan AC mobil kita.......
-      </div>
-
-      <div class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita"
-          style="margin-left: 40px">
-          Dalam berbagai kondisi cuaca, AC mobil menjadi salah satu komponen
-          <br />
-          penting yang menjamin kenyamanan selama perjalanan. Namun, tidak
-          <br />
-          jarang kita mengalami masalah dengan AC mobil kita.......
-      </div>
-  </div>
-
-  <div class="frame-81">
-      <div class="pertama">
-          Pelepasan Mahasiswa KKN Tematik Bidadari
-          <br />
-          di Lingkungan LLDIKTI
-      </div>
-      <div class="pertama" style="margin-left:50px">
-        Pelepasan Mahasiswa KKN Tematik Bidadari
-        <br />
-        di Lingkungan LLDIKTI
-    </div>
-  </div>
-
-  <div class="frame-80">
-      <div class="frame-82">
-          <div class="frame-81">
-              <div class="mbkm">MBKM</div>
-              <div class="div">|</div>
-              <div class="_1-jam-yang-lalu">1 Jam yang lalu</div>
-
-              <div class="mbkm" style="margin-left:300px">MBKM</div>
-              <div class="div">|</div>
-              <div class="_1-jam-yang-lalu">1 Jam yang lalu</div>
-          </div>
-      </div>
-  </div>
-
-  <div class="frame-811">
-  <div
-      class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita">
-      Dalam berbagai kondisi cuaca, AC mobil menjadi salah satu komponen
-      <br />
-      penting yang menjamin kenyamanan selama perjalanan. Namun, tidak
-      <br />
-      jarang kita mengalami masalah dengan AC mobil kita.......
-  </div> --}}
-
-  {{-- <div class="dalam-berbagai-kondisi-cuaca-ac-mobil-menjadi-salah-satu-komponen-penting-yang-menjamin-kenyamanan-selama-perjalanan-namun-tidak-jarang-kita-mengalami-masalah-dengan-ac-mobil-kita"
-          style="margin-left: 40px">
-          Dalam berbagai kondisi cuaca, AC mobil menjadi salah satu komponen
-          <br />
-          penting yang menjamin kenyamanan selama perjalanan. Namun, tidak
-          <br />
-          jarang kita mengalami masalah dengan AC mobil kita.......
-      </div>
-  </div> --}}
 
   <div class="row">
     <div class="col-lg-5 justify-content-center text-center">
@@ -617,22 +389,3 @@
       </script>
 
     </div>
-
-    <header>
-        <!-- place navbar here -->
-    </header>
-    <main></main>
-    <footer>
-        <!-- place footer here -->
-    </footer>
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
-    </script>
-</body>
-
-</html>
