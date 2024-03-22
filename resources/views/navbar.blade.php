@@ -63,10 +63,17 @@
         color: #007bff; /* Sesuaikan warna teks */
         text-decoration: none;
         transition: color 0.3s ease;
+        border-bottom: 2px solid transparent;
+        transition: border-bottom 0.3s ease;
+        transition: color 0.3s ease;
+        z-index: -1; 
     }
     
     .nav-link:hover {
+        transform: translateY(5px);
         color: #0056b3; 
+        border-bottom-color: blue;
+    
     }
     
     @media (max-width: 768px) {
