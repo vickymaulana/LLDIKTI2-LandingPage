@@ -207,7 +207,7 @@
       <div data-aos="fade-down"
       data-aos-duration="500"
       data-aos-delay="200">
-        <a href="#">
+        <a href="https://sikito.lldikti2.id/" target="_blank">
           <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
             <div class="hidden-content">
               <h4>SI-KITO</h4>
@@ -223,7 +223,7 @@
       <div data-aos="fade-down"
       data-aos-duration="500"
       data-aos-delay="200">
-        <a href="#">
+        <a href="https://missmonik.lldikti2.id/" target="_blank">
           <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
             <div class="hidden-content">
               <h4>MISSMONIK</h4>
@@ -239,7 +239,7 @@
       <div data-aos="fade-down"
       data-aos-duration="500"
       data-aos-delay="200">
-        <a href="#">
+        <a href="https://dites.lldikti2.id/" target="_blank">
           <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
             <div class="hidden-content">
               <h4>DiTES</h4>
