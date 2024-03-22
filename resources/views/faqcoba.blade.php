@@ -12,7 +12,7 @@
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
+.active-faq, .accordion:hover {
   background-color: #ffff;
 }
 
@@ -24,7 +24,7 @@
   margin-left: 5px;
 }
 
-.active:after {
+.active-faq:after {
   content: "\2212";
 }
 
@@ -120,7 +120,7 @@ var i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
+    this.classList.toggle("active-faq");
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight) {
       panel.style.maxHeight = null;
