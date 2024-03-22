@@ -159,7 +159,7 @@ margin-left: 2px;
   top: 231px;
   width: 73px;
   height: 44px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .jumlah-program-studi {
   color: #174967;
@@ -172,7 +172,7 @@ margin-left: 2px;
   left: 649px;
   top: 258px;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .rectangle-250 {
   border-radius: 0px;
@@ -195,6 +195,7 @@ margin-left: 2px;
   top: 231px;
   width: 73px;
   height: 44px;
+  margin-left: 10px;
 }
 .jumlah-dosen-tetap {
   color: #174967;
@@ -245,7 +246,7 @@ margin-left: 2px;
      data-aos-anchor-placement="top-bottom"
      data-aos-duration="500"
      data-aos-delay="200">
-  <img class="image-24" src="/img/dosen.png" /></div>
+  <img class="image-24" src="/img/lecturer.png" /></div>
   <div class="jumlah-perguruan-tinggi">Jumlah Perguruan Tinggi</div>
   <svg
     class="rectangle-247"

@@ -376,11 +376,29 @@
 
   </div>
 
-  <div class="row">
-    <div class="col-lg-5 justify-content-center text-center">
-      <button type="button" class="btn btn-primary mt-4">Lebih Banyak</button>
-    </div>
-  </div>
+  <ul class="pagination">
+            
+    <li class="page-item disabled" aria-disabled="true" aria-label="« Previous">
+<span class="page-link" aria-hidden="true">‹</span>
+</li>
+   <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+   <li class="page-item"><a class="page-link" href="https://lldikti2.kemdikbud.go.id?page=2">2</a></li>
+   <li class="page-item"><a class="page-link" href="https://lldikti2.kemdikbud.go.id?page=3">3</a></li>
+   <li class="page-item"><a class="page-link" href="https://lldikti2.kemdikbud.go.id?page=4">4</a></li>
+   <li class="page-item"><a class="page-link" href="https://lldikti2.kemdikbud.go.id?page=5">5</a></li>
+  <li class="page-item"><a class="page-link" href="https://lldikti2.kemdikbud.go.id?page=6">6</a></li>
+  <li class="page-item"><a class="page-link" href="https://lldikti2.kemdikbud.go.id?page=7">7</a></li>
+  <li class="page-item"><a class="page-link" href="https://lldikti2.kemdikbud.go.id?page=8">8</a></li>
+  <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
+
+
+   <li class="page-item"><a class="page-link" href="https://lldikti2.kemdikbud.go.id?page=120">120</a></li>
+   <li class="page-item"><a class="page-link" href="https://lldikti2.kemdikbud.go.id?page=121">121</a></li>
+                                                
+   <li class="page-item">
+<a class="page-link" href="https://lldikti2.kemdikbud.go.id?page=2" rel="next" aria-label="Next »">›</a>
+</li>
+</ul>
 
       <script>
         function aqua(){
