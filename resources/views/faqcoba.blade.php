@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .accordion {
   background-color: #ffff;
@@ -64,8 +60,6 @@
   }
 }
 </style>
-</head>
-<body>
 
 <div class="container-faq">
     <div>
@@ -128,6 +122,3 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 </script>
-
-</body>
-</html>
