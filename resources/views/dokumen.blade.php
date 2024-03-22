@@ -42,6 +42,15 @@
 .card-text {
   font-size: 12px;
 }
+
+.btn {
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: translateY(2px);
+}
+
 .btn-success {
   background-color: #03419f;
   color: white;
@@ -68,6 +77,23 @@
   background-color: #03419f;
   color: white;
 }
+
+.btn-success:active {
+  background-color: #174967;
+}
+
+.btn-outline-success:active {
+  background-color: #03419f;
+  color: white;
+}
+
+  /* Tambahkan gaya khusus untuk versi mobile */
+  @media (max-width: 768px) {
+    .box {
+      width: 100%; /* Mengatur lebar menjadi 100% - 40px untuk 1 kotak dalam 1 baris */
+    }
+  }
+
 </style>
 
 
@@ -78,15 +104,6 @@
   
 <div class="box-container">
 <div data-aos="flip-left">
-  <div class="box">
-  <div data-aos="flip-left">
-    <img src="https://via.placeholder.com/200" alt="Placeholder Image">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button type="button" class="btn btn-success"><i class="fa-solid fa-eye"></i>Lihat</button>
-    <button type="button" class="btn btn-outline-success"><i class="fa-solid fa-download"></i>Unduh</button></div>
-  </div></div>
-  <div data-aos="flip-left">
   <div class="box">
   <div data-aos="flip-left">
     <img src="https://via.placeholder.com/200" alt="Placeholder Image">
