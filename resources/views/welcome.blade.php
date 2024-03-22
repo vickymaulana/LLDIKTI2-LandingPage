@@ -10,8 +10,8 @@
 </head>
 <body>
     @include('carousel-news')
-    @include('berita-terbaru')
-    @include('social-media')
+    @include('page-2')
+    {{--  @include('social-media')  --}}
     @include('dokumen')
     @include('layanan-aplikasi')
     @include('statistik')

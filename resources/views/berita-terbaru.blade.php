@@ -302,8 +302,8 @@
   <button type="button" class="btn btn-primary mt-2"><i class="fa-solid fa-filter me-2"></i>Filter</button>
 
   <div class="row mt-2">
-    <div class="col-lg-8 d-flex flex-row">
-      <div class="col-lg-4">
+    <div class="col-lg-12 d-flex flex-row">
+      <div class="col-lg-5">
         <div class="pertama">
           Pelepasan Mahasiswa KKN Tematik Bidadari
           di Lingkungan LLDIKTI
@@ -319,8 +319,8 @@
           jarang kita mengalami masalah dengan AC mobil kita.......
         </div>
       </div>
-  
-      <div class="col-lg-4">
+
+      <div class="col-lg-5">
         <div class="pertama">
           Pelepasan Mahasiswa KKN Tematik Bidadari
           di Lingkungan LLDIKTI
@@ -337,9 +337,9 @@
         </div>
       </div>
     </div>
-    
-    <div class="col-xl-8 d-flex flex-row">
-      <div class="col-lg-4">
+
+    <div class="col-xl-12 d-flex flex-row">
+      <div class="col-lg-5">
         <div class="pertama">
           Pelepasan Mahasiswa KKN Tematik Bidadari
           di Lingkungan LLDIKTI
@@ -355,8 +355,8 @@
           jarang kita mengalami masalah dengan AC mobil kita.......
         </div>
       </div>
-  
-      <div class="col-lg-4">
+
+      <div class="col-lg-5">
         <div class="pertama">
           Pelepasan Mahasiswa KKN Tematik Bidadari
           di Lingkungan LLDIKTI
@@ -377,7 +377,7 @@
   </div>
 
   <ul class="pagination">
-            
+
     <li class="page-item disabled" aria-disabled="true" aria-label="« Previous">
 <span class="page-link" aria-hidden="true">‹</span>
 </li>
@@ -394,7 +394,7 @@
 
    <li class="page-item"><a class="page-link" href="https://lldikti2.kemdikbud.go.id?page=120">120</a></li>
    <li class="page-item"><a class="page-link" href="https://lldikti2.kemdikbud.go.id?page=121">121</a></li>
-                                                
+
    <li class="page-item">
 <a class="page-link" href="https://lldikti2.kemdikbud.go.id?page=2" rel="next" aria-label="Next »">›</a>
 </li>
