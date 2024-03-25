@@ -305,8 +305,10 @@
     <div class="col-lg-12 d-flex flex-row">
       <div class="col-lg-5">
         <div class="pertama">
+            <a href= "#">
           Pelepasan Mahasiswa KKN Tematik Bidadari
           di Lingkungan LLDIKTI
+        </a>
         </div>
         <div class="frame-81">
           <div class="mbkm">MBKM</div>
@@ -322,8 +324,10 @@
 
       <div class="col-lg-5">
         <div class="pertama">
+            <a href="#">
           Pelepasan Mahasiswa KKN Tematik Bidadari
           di Lingkungan LLDIKTI
+        </a>
         </div>
         <div class="frame-81">
           <div class="mbkm">MBKM</div>
@@ -341,8 +345,10 @@
     <div class="col-xl-12 d-flex flex-row">
       <div class="col-lg-5">
         <div class="pertama">
+            <a href="#">
           Pelepasan Mahasiswa KKN Tematik Bidadari
           di Lingkungan LLDIKTI
+        </a>
         </div>
         <div class="frame-81">
           <div class="mbkm">MBKM</div>
@@ -358,8 +364,10 @@
 
       <div class="col-lg-5">
         <div class="pertama">
+            <a href="#">
           Pelepasan Mahasiswa KKN Tematik Bidadari
           di Lingkungan LLDIKTI
+        </a>
         </div>
         <div class="frame-81">
           <div class="mbkm">MBKM</div>
